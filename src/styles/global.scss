@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.card {
+  background: $bg-card;
+  border-radius: $card-radius;
+  padding: $spacing-page;
+  margin-bottom: $spacing-page;
+  box-shadow: 0 4rpx 16rpx rgba(31, 41, 55, 0.06);
+}
+
+.tag {
+  display: inline-block;
+  padding: 4rpx 16rpx;
+  font-size: 22rpx;
+  color: $primary;
+  background: $primary-light;
+  border-radius: 8rpx;
+  margin-right: 12rpx;
+  margin-bottom: 8rpx;
+}
+
+.page-with-bottom-bar {
+  padding-bottom: calc(120rpx + env(safe-area-inset-bottom));
+}
+
+.empty-state {
+  padding: 80rpx 40rpx;
+  text-align: center;
+  color: $text-secondary;
+  font-size: 28rpx;
+}

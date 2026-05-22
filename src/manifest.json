@@ -1,0 +1,19 @@
+{
+  "name": "医药包装设备",
+  "appid": "__UNI__PHARMA_PKG",
+  "description": "医药包装设备展示小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3"
+}
