@@ -54,9 +54,12 @@ export interface Certification {
 }
 
 export interface Contact {
-  phone: string;
-  wechat: string;
+  salesPhone: string;
+  afterSalesPhone: string;
+  fax: string;
+  email: string;
   address: string;
+  wechat: string;
   latitude: number;
   longitude: number;
 }

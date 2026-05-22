@@ -2,7 +2,7 @@
   <view class="contact-bar">
     <view class="btn outline" @tap="onCall">
       <text class="btn-icon">📞</text>
-      <text>电话咨询</text>
+      <text>销售电话</text>
     </view>
     <view class="btn primary" @tap="onCopyWechat">
       <text class="btn-icon">💬</text>
@@ -17,7 +17,7 @@ import { getCompany } from '@/utils/content';
 const contact = getCompany().contact;
 
 function onCall() {
-  uni.makePhoneCall({ phoneNumber: contact.phone });
+  uni.makePhoneCall({ phoneNumber: contact.salesPhone });
 }
 
 function onCopyWechat() {

@@ -48,13 +48,21 @@
 
     <view class="card">
       <SectionTitle title="联系我们" />
-      <view class="contact-row" @tap="onCall">
-        <text class="label">电话</text>
-        <text class="value link">{{ company.contact.phone }}</text>
+      <view class="contact-row" @tap="onCallSales">
+        <text class="label">销售电话</text>
+        <text class="value link">{{ company.contact.salesPhone }}</text>
       </view>
-      <view class="contact-row" @tap="onCopyWechat">
-        <text class="label">微信</text>
-        <text class="value link">{{ company.contact.wechat }}</text>
+      <view class="contact-row" @tap="onCallAfterSales">
+        <text class="label">售后电话</text>
+        <text class="value link">{{ company.contact.afterSalesPhone }}</text>
+      </view>
+      <view class="contact-row">
+        <text class="label">传真号码</text>
+        <text class="value">{{ company.contact.fax }}</text>
+      </view>
+      <view class="contact-row" @tap="onCopyEmail">
+        <text class="label">邮箱</text>
+        <text class="value link">{{ company.contact.email }}</text>
       </view>
       <view class="contact-row">
         <text class="label">地址</text>
@@ -81,14 +89,18 @@ function previewCert(index: number) {
   uni.previewImage({ urls, current: urls[index] });
 }
 
-function onCall() {
-  uni.makePhoneCall({ phoneNumber: company.contact.phone });
+function onCallSales() {
+  uni.makePhoneCall({ phoneNumber: company.contact.salesPhone });
 }
 
-function onCopyWechat() {
+function onCallAfterSales() {
+  uni.makePhoneCall({ phoneNumber: company.contact.afterSalesPhone });
+}
+
+function onCopyEmail() {
   uni.setClipboardData({
-    data: company.contact.wechat,
-    success: () => uni.showToast({ title: '微信号已复制', icon: 'success' }),
+    data: company.contact.email,
+    success: () => uni.showToast({ title: '邮箱已复制', icon: 'success' }),
   });
 }
 
@@ -242,7 +254,7 @@ function openMap() {
   }
 
   .label {
-    width: 100rpx;
+    width: 160rpx;
     color: $text-secondary;
     font-size: 28rpx;
   }
