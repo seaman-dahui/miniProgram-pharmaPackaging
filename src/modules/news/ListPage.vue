@@ -61,6 +61,7 @@ function goDetail(id: string) {
     display: block;
     font-size: 24rpx;
     color: $text-secondary;
+	text-align: right;
   }
 }
 
