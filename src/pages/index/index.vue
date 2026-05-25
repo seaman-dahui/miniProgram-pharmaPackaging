@@ -124,7 +124,7 @@ function goAbout() {
 }
 
 .header {
-  background: linear-gradient(180deg, #1a5fb4 0%, #2d7dd4 100%);
+  background: linear-gradient(180deg, $primary 0%, #ff3333 100%);
   padding: 0 $spacing-page 24rpx;
   color: #fff;
 

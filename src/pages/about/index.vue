@@ -129,7 +129,7 @@ function openMap() {
   align-items: center;
   padding: 32rpx;
   margin-bottom: $spacing-page;
-  background: linear-gradient(135deg, #1a5fb4, #2d7dd4);
+  background: linear-gradient(135deg, $primary-dark, $primary);
   border-radius: $card-radius;
   color: #fff;
 

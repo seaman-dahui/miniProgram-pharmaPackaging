@@ -59,7 +59,6 @@ export interface Contact {
   fax: string;
   email: string;
   address: string;
-  wechat: string;
   latitude: number;
   longitude: number;
 }
