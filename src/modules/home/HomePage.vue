@@ -135,12 +135,13 @@ function goAbout() {
   .header-inner {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     padding: 8rpx 0 12rpx;
   }
 
   .logo-wrap {
-    width: 100%;
-    padding: 16rpx 20rpx;
+    width: 50%;
+    padding: 12rpx 16rpx;
     background: #fff;
     border-radius: 12rpx;
     box-sizing: border-box;
@@ -148,7 +149,7 @@ function goAbout() {
 
   .company-logo {
     width: 100%;
-    height: 96rpx;
+    height: 48rpx;
   }
 
   .brand-name {
