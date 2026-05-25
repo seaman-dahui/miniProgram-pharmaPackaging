@@ -17,25 +17,25 @@
 	],
 	"banners": [{
 			"id": "b1",
-			"image": "/static/banner/banner1.png",
+			"image": "/subpackage/home/static/banner/banner1.png",
 			"title": "智能医药包装整体解决方案",
 			"linkProductId": "eq-001"
 		},
 		{
 			"id": "b2",
-			"image": "/static/banner/banner2.png",
+			"image": "/subpackage/home/static/banner/banner2.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		},
 		{
 			"id": "b3",
-			"image": "/static/banner/banner3.png",
+			"image": "/subpackage/home/static/banner/banner3.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		},
 		{
 			"id": "b4",
-			"image": "/static/banner/banner4.png",
+			"image": "/subpackage/home/static/banner/banner4.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		}
@@ -47,8 +47,8 @@
 			"categoryId": "labeling",
 			"name": "S-750高速回转式贴标机",
 			"summary": "适用于圆瓶的立式贴标",
-			"cover": "/static/s-750/total.png",
-			"images": ["/static/s-750/total.png", "/static/s-750/detail1.png", "/static/s-750/detail2.png"],
+			"cover": "/subpackage/products/static/s-750/total.png",
+			"images": ["/subpackage/products/static/s-750/total.png", "/subpackage/products/static/s-750/detail1.png", "/subpackage/products/static/s-750/detail2.png"],
 			"tags": ["高精度", "变频"],
 			"specs": [{
 					"label": "贴标速度",
@@ -109,8 +109,8 @@
 			"categoryId": "labeling",
 			"name": "立式圆瓶贴标机",
 			"summary": "适用于圆瓶、扁瓶的标签贴合，支持正反标",
-			"cover": "/static/placeholder.png",
-			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"cover": "/subpackage/products/static/placeholder.png",
+			"images": ["/subpackage/products/static/placeholder.png", "/subpackage/products/static/placeholder.png"],
 			"tags": ["高精度", "变频"],
 			"specs": [{
 					"label": "贴标速度",
@@ -147,8 +147,8 @@
 			"categoryId": "cartoning",
 			"name": "全自动装盒机",
 			"summary": "药品泡罩板、瓶装产品自动折盒装盒",
-			"cover": "/static/placeholder.png",
-			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"cover": "/subpackage/products/static/placeholder.png",
+			"images": ["/subpackage/products/static/placeholder.png", "/subpackage/products/static/placeholder.png"],
 			"tags": ["联动线", "高速"],
 			"specs": [{
 					"label": "装盒速度",
@@ -185,8 +185,8 @@
 			"categoryId": "blister",
 			"name": "铝塑泡罩包装机",
 			"summary": "片剂、胶囊铝塑泡罩密封包装",
-			"cover": "/static/placeholder.png",
-			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"cover": "/subpackage/products/static/placeholder.png",
+			"images": ["/subpackage/products/static/placeholder.png", "/subpackage/products/static/placeholder.png"],
 			"tags": ["铝塑", "热封"],
 			"specs": [{
 					"label": "冲裁频率",

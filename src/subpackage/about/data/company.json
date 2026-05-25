@@ -1,7 +1,7 @@
 {
   "brandName": "上海朗惠包装机械有限公司",
   "slogan": "专注医药包装设备 · 助力制药智能化",
-  "logo": "/static/logo.png",
+  "logo": "/subpackage/about/static/logo.png",
   "introSummary": "上海朗惠包装机械有限公司专注于医药包装机械的研发、制造与服务，为制药企业提供灌装、贴标、装盒、泡罩等整线设备及技术支持。",
   "intro": [
     "上海朗惠包装机械有限公司是一家专业从事高速贴标机制药设备的研发、设计、生产、销售和技术服务的企业，所生产的设备以稳定性高、速度快、精度准，故障率低，操作简单为著称，完全参照CGMP、FDA、CSA、SGS、CE等规范要求，公司产品质量依据ISO：9001的要求标准设计、生产。公司根据客户不同的产品结合客户URS进行规范的设计、制造。",
@@ -74,7 +74,7 @@
       { "zh": "全力以赴", "en": "Go all out" }
     ]
   },
-  "honorsImage": "/static/cert/honors.png",
+  "honorsImage": "/subpackage/about/static/cert/honors.png",
   "contact": {
     "salesPhone": "021-67678382",
     "afterSalesPhone": "021-37680571",

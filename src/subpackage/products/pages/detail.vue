@@ -43,6 +43,7 @@ import SpecList from '@/components/SpecList.vue';
 import FeatureList from '@/components/FeatureList.vue';
 import ContactBar from '@/components/ContactBar.vue';
 import { getProductById } from '@/utils/content';
+import { SUBPACKAGE } from '@/utils/routes';
 import type { Product } from '@/types/content';
 
 const product = ref<Product | undefined>();
@@ -59,7 +60,7 @@ onLoad((query) => {
 
 onShareAppMessage(() => ({
   title: product.value?.name || '医药包装设备',
-  path: `/pages/products/detail?id=${product.value?.id || ''}`,
+  path: `${SUBPACKAGE.PRODUCTS_DETAIL}?id=${product.value?.id || ''}`,
 }));
 </script>
 

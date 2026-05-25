@@ -66,6 +66,22 @@ export interface CultureServiceTenet {
   values: CultureLabel[];
 }
 
+export interface NewsBlock {
+  type: 'text' | 'image';
+  content: string;
+}
+
+export interface NewsArticle {
+  id: string;
+  title: string;
+  publishTime: string;
+  blocks: NewsBlock[];
+}
+
+export interface NewsData {
+  articles: NewsArticle[];
+}
+
 export interface CompanyCulture {
   blocks: CultureBlock[];
   coreValues: CultureLabel[];

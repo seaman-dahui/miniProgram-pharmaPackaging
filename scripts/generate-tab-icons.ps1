@@ -41,13 +41,19 @@ function New-IconBitmap([string]$name, [string]$colorHex) {
       $g.FillEllipse($brush, 34, 28, 13, 13)
       $g.FillRectangle($brush, 28, 54, 25, 12)
     }
+    'news' {
+      $g.DrawRectangle($pen, 20, 22, 41, 37)
+      $g.DrawLine($pen, 28, 32, 53, 32)
+      $g.DrawLine($pen, 28, 42, 53, 42)
+      $g.DrawLine($pen, 28, 52, 45, 52)
+    }
   }
 
   $g.Dispose()
   return $bmp
 }
 
-$icons = @('home', 'products', 'about')
+$icons = @('home', 'products', 'news', 'about')
 foreach ($icon in $icons) {
   $normal = New-IconBitmap $icon '#6B7280'
   $selected = New-IconBitmap $icon '#E20101'

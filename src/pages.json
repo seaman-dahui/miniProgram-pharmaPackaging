@@ -14,9 +14,9 @@
       }
     },
     {
-      "path": "pages/products/detail",
+      "path": "pages/news/index",
       "style": {
-        "navigationBarTitleText": "设备详情"
+        "navigationBarTitleText": "新闻资讯"
       }
     },
     {
@@ -26,6 +26,83 @@
       }
     }
   ],
+  "subPackages": [
+    {
+      "root": "subpackage/home",
+      "pages": [
+        {
+          "path": "pages/index",
+          "style": {
+            "navigationBarTitleText": "首页",
+            "navigationStyle": "custom"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subpackage/products",
+      "pages": [
+        {
+          "path": "pages/index",
+          "style": {
+            "navigationBarTitleText": "产品中心"
+          }
+        },
+        {
+          "path": "pages/detail",
+          "style": {
+            "navigationBarTitleText": "设备详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subpackage/news",
+      "pages": [
+        {
+          "path": "pages/index",
+          "style": {
+            "navigationBarTitleText": "新闻资讯"
+          }
+        },
+        {
+          "path": "pages/detail",
+          "style": {
+            "navigationBarTitleText": "新闻详情"
+          }
+        }
+      ]
+    },
+    {
+      "root": "subpackage/about",
+      "pages": [
+        {
+          "path": "pages/index",
+          "style": {
+            "navigationBarTitleText": "关于我们"
+          }
+        }
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["subpackage/home", "subpackage/about", "subpackage/products"]
+    },
+    "pages/products/index": {
+      "network": "all",
+      "packages": ["subpackage/products"]
+    },
+    "pages/news/index": {
+      "network": "all",
+      "packages": ["subpackage/news"]
+    },
+    "pages/about/index": {
+      "network": "all",
+      "packages": ["subpackage/about"]
+    }
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "医药包装设备",
@@ -49,6 +126,12 @@
         "text": "产品",
         "iconPath": "/static/tabs/products.png",
         "selectedIconPath": "/static/tabs/products-select.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "新闻",
+        "iconPath": "/static/tabs/news.png",
+        "selectedIconPath": "/static/tabs/news-select.png"
       },
       {
         "pagePath": "pages/about/index",

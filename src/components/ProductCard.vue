@@ -13,6 +13,7 @@
 
 <script setup lang="ts">
 import type { Product } from '@/types/content';
+import { SUBPACKAGE } from '@/utils/routes';
 
 const props = defineProps<{
   product: Product;
@@ -20,7 +21,7 @@ const props = defineProps<{
 
 function onTap() {
   uni.navigateTo({
-    url: `/pages/products/detail?id=${props.product.id}`,
+    url: `${SUBPACKAGE.PRODUCTS_DETAIL}?id=${props.product.id}`,
   });
 }
 </script>
