@@ -16,11 +16,11 @@ export const TAB = {
   ABOUT: '/pages/about/index',
 } as const;
 
-/** 分包静态资源路径前缀 */
+/** 主包静态资源路径（按模块分目录，Tab 页可直接加载） */
 export const ASSETS = {
-  HOME: '/subpackage/home/static',
-  PRODUCTS: '/subpackage/products/static',
-  NEWS: '/subpackage/news/static',
-  ABOUT: '/subpackage/about/static',
+  HOME: '/static/home',
+  PRODUCTS: '/static/products',
+  NEWS: '/static/news',
+  ABOUT: '/static/about',
   TABS: '/static/tabs',
 } as const;
