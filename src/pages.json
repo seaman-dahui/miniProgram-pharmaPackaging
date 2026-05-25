@@ -85,6 +85,24 @@
       ]
     }
   ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["subpackage/home", "subpackage/about", "subpackage/products"]
+    },
+    "pages/products/index": {
+      "network": "all",
+      "packages": ["subpackage/products"]
+    },
+    "pages/news/index": {
+      "network": "all",
+      "packages": ["subpackage/news"]
+    },
+    "pages/about/index": {
+      "network": "all",
+      "packages": ["subpackage/about"]
+    }
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "医药包装设备",

@@ -74,7 +74,7 @@
       { "zh": "全力以赴", "en": "Go all out" }
     ]
   },
-  "honorsImage": "/static/about/cert/honors.png",
+  "honorsImage": "/subpackage/about/static/cert/honors.png",
   "contact": {
     "salesPhone": "021-67678382",
     "afterSalesPhone": "021-37680571",

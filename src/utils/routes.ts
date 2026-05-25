@@ -16,11 +16,12 @@ export const TAB = {
   ABOUT: '/pages/about/index',
 } as const;
 
-/** 主包静态资源路径（按模块分目录，Tab 页可直接加载） */
+/** 分包静态资源路径（大图放分包；主包仅 tabs + logo） */
 export const ASSETS = {
-  HOME: '/static/home',
-  PRODUCTS: '/static/products',
-  NEWS: '/static/news',
-  ABOUT: '/static/about',
+  HOME: '/subpackage/home/static',
+  PRODUCTS: '/subpackage/products/static',
+  NEWS: '/subpackage/news/static',
+  ABOUT: '/subpackage/about/static',
   TABS: '/static/tabs',
+  LOGO: '/static/about/logo.png',
 } as const;
