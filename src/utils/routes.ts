@@ -24,4 +24,5 @@ export const ASSETS = {
   ABOUT: '/subpackage/about/static',
   TABS: '/static/tabs',
   LOGO: '/static/about/logo.png',
+  BANNER: '/static/home/banner',
 } as const;

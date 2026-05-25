@@ -17,25 +17,25 @@
 	],
 	"banners": [{
 			"id": "b1",
-			"image": "/subpackage/home/static/banner/banner1.png",
+			"image": "/static/home/banner/banner1.png",
 			"title": "智能医药包装整体解决方案",
 			"linkProductId": "eq-001"
 		},
 		{
 			"id": "b2",
-			"image": "/subpackage/home/static/banner/banner2.png",
+			"image": "/static/home/banner/banner2.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		},
 		{
 			"id": "b3",
-			"image": "/subpackage/home/static/banner/banner3.png",
+			"image": "/static/home/banner/banner3.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		},
 		{
 			"id": "b4",
-			"image": "/subpackage/home/static/banner/banner4.png",
+			"image": "/static/home/banner/banner4.png",
 			"title": "符合 GMP 规范的高速生产线",
 			"linkProductId": "eq-003"
 		}
