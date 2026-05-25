@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-import AboutPage from '@/subpackage/about/pages/index.vue';
+import AboutPage from '@/modules/about/AboutPage.vue';
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <NewsPage />
+  <NewsListPage />
 </template>
 
 <script setup lang="ts">
-import NewsPage from '@/subpackage/news/pages/index.vue';
+import NewsListPage from '@/modules/news/ListPage.vue';
 </script>
