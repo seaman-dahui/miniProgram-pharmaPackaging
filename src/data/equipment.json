@@ -1,158 +1,224 @@
 {
-  "categories": [
-    { "id": "filling", "name": "灌装机", "emoji": "💧" },
-    { "id": "labeling", "name": "贴标机", "emoji": "🏷️" },
-    { "id": "cartoning", "name": "装盒机", "emoji": "📦" },
-    { "id": "blister", "name": "泡罩机", "emoji": "💊" },
-    { "id": "unscrambler", "name": "理瓶机", "emoji": "🧴" },
-    { "id": "checkweigher", "name": "检重机", "emoji": "⚖️" }
-  ],
-  "banners": [
-    {
-      "id": "b1",
-      "image": "/static/banner/banner1.png",
-      "title": "智能医药包装整体解决方案",
-      "linkProductId": "eq-001"
-    },
-    {
-      "id": "b2",
-      "image": "/static/banner/banner1.png",
-      "title": "符合 GMP 规范的高速生产线",
-      "linkProductId": "eq-003"
-    }
-  ],
-  "products": [
-    {
-      "id": "eq-001",
-      "categoryId": "filling",
-      "name": "全自动液体灌装机",
-      "summary": "适用于口服液、注射液等液体制剂的高速灌装",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["GMP", "高速", "伺服"],
-      "specs": [
-        { "label": "产能", "value": "120 瓶/分钟" },
-        { "label": "灌装精度", "value": "±0.5%" },
-        { "label": "适用规格", "value": "5ml - 500ml" }
-      ],
-      "features": [
-        { "title": "伺服灌装", "desc": "采用伺服驱动计量泵，灌装精度高、重复性好" },
-        { "title": "CIP/SIP 兼容", "desc": "管路设计便于在线清洗与灭菌，满足制药卫生要求" },
-        { "title": "人机界面", "desc": "触摸屏配方管理，支持多规格快速切换" }
-      ],
-      "applications": ["制药", "保健品", "化妆品"],
-      "featured": true,
-      "sort": 1
-    },
-    {
-      "id": "eq-002",
-      "categoryId": "labeling",
-      "name": "立式圆瓶贴标机",
-      "summary": "适用于圆瓶、扁瓶的标签贴合，支持正反标",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["高精度", "变频"],
-      "specs": [
-        { "label": "贴标速度", "value": "200 件/分钟" },
-        { "label": "贴标精度", "value": "±1mm" },
-        { "label": "标签尺寸", "value": "宽 10-200mm" }
-      ],
-      "features": [
-        { "title": "智能纠偏", "desc": "光电检测配合伺服纠偏，贴标位置稳定" },
-        { "title": "多标头配置", "desc": "可选单标、双标、套标等多种贴标方式" },
-        { "title": "故障自诊断", "desc": "缺标、断标自动报警并停机保护" }
-      ],
-      "applications": ["制药", "日化", "食品"],
-      "featured": true,
-      "sort": 2
-    },
-    {
-      "id": "eq-003",
-      "categoryId": "cartoning",
-      "name": "全自动装盒机",
-      "summary": "药品泡罩板、瓶装产品自动折盒装盒",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["联动线", "高速"],
-      "specs": [
-        { "label": "装盒速度", "value": "80 盒/分钟" },
-        { "label": "纸盒规格", "value": "长 50-200mm" },
-        { "label": "电源", "value": "380V / 50Hz" }
-      ],
-      "features": [
-        { "title": "连续供盒", "desc": "纸盒库自动补料，减少停机换料时间" },
-        { "title": "缺料检测", "desc": "产品、说明书、纸盒缺料自动停机提示" },
-        { "title": "柔性调节", "desc": "手轮与刻度快速调节，适应多种盒型" }
-      ],
-      "applications": ["固体制剂", "医疗器械", "保健品"],
-      "featured": true,
-      "sort": 3
-    },
-    {
-      "id": "eq-004",
-      "categoryId": "blister",
-      "name": "铝塑泡罩包装机",
-      "summary": "片剂、胶囊铝塑泡罩密封包装",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["铝塑", "热封"],
-      "specs": [
-        { "label": "冲裁频率", "value": "60 次/分钟" },
-        { "label": "泡罩深度", "value": "最大 15mm" },
-        { "label": "适用片径", "value": "φ3 - φ25mm" }
-      ],
-      "features": [
-        { "title": "恒温热封", "desc": "PID 控温热封辊，封合牢固、外观平整" },
-        { "title": "无废料冲裁", "desc": "优化冲裁布局，提高包材利用率" },
-        { "title": "安全防护", "desc": "防护罩联锁，开门自动切断动力" }
-      ],
-      "applications": ["片剂", "胶囊", "含片"],
-      "featured": false,
-      "sort": 4
-    },
-    {
-      "id": "eq-005",
-      "categoryId": "unscrambler",
-      "name": "高速理瓶机",
-      "summary": "不规则瓶型自动整理定向输送",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["变频", "低噪"],
-      "specs": [
-        { "label": "理瓶速度", "value": "150 瓶/分钟" },
-        { "label": "瓶径范围", "value": "φ20 - φ80mm" },
-        { "label": "瓶高范围", "value": "50 - 200mm" }
-      ],
-      "features": [
-        { "title": "双盘结构", "desc": "上料盘与分瓶盘配合，理瓶效率高" },
-        { "title": "瓶型记忆", "desc": "触摸屏保存瓶型参数，一键调用" },
-        { "title": "不锈钢机身", "desc": "与物料接触部分采用 304 不锈钢" }
-      ],
-      "applications": ["灌装前端", "贴标前端", "包装线"],
-      "featured": false,
-      "sort": 5
-    },
-    {
-      "id": "eq-006",
-      "categoryId": "checkweigher",
-      "name": "在线检重秤",
-      "summary": "包装后产品重量检测与自动剔除",
-      "cover": "/static/placeholder.png",
-      "images": ["/static/placeholder.png", "/static/placeholder.png"],
-      "tags": ["称重", "剔除"],
-      "specs": [
-        { "label": "检测速度", "value": "120 件/分钟" },
-        { "label": "分度值", "value": "0.1g" },
-        { "label": "称量范围", "value": "10g - 2000g" }
-      ],
-      "features": [
-        { "title": "动态称重", "desc": "高速动态补偿算法，称重稳定可靠" },
-        { "title": "数据统计", "desc": "实时显示合格率、均值、标准差" },
-        { "title": "气动剔除", "desc": "超重欠重产品自动剔除至收纳箱" }
-      ],
-      "applications": ["装盒后", "装箱前", "出库检验"],
-      "featured": true,
-      "sort": 6
-    }
-  ]
+	"categories": [{
+			"id": "labeling",
+			"name": "贴标机",
+			"emoji": "🏷️"
+		},
+		{
+			"id": "cartoning",
+			"name": "装盒机",
+			"emoji": "📦"
+		},
+		{
+			"id": "blister",
+			"name": "泡罩机",
+			"emoji": "💊"
+		}
+	],
+	"banners": [{
+			"id": "b1",
+			"image": "/static/banner/banner1.png",
+			"title": "智能医药包装整体解决方案",
+			"linkProductId": "eq-001"
+		},
+		{
+			"id": "b2",
+			"image": "/static/banner/banner2.png",
+			"title": "符合 GMP 规范的高速生产线",
+			"linkProductId": "eq-003"
+		},
+		{
+			"id": "b3",
+			"image": "/static/banner/banner3.png",
+			"title": "符合 GMP 规范的高速生产线",
+			"linkProductId": "eq-003"
+		},
+		{
+			"id": "b4",
+			"image": "/static/banner/banner4.png",
+			"title": "符合 GMP 规范的高速生产线",
+			"linkProductId": "eq-003"
+		}
+	],
+	"products": [
+
+		{
+			"id": "eq-001",
+			"categoryId": "labeling",
+			"name": "S-750高速回转式贴标机",
+			"summary": "适用于圆瓶的立式贴标",
+			"cover": "/static/s-750/total.png",
+			"images": ["/static/s-750/total.png", "/static/s-750/detail1.png", "/static/s-750/detail2.png"],
+			"tags": ["高精度", "变频"],
+			"specs": [{
+					"label": "贴标速度",
+					"value": "0-700瓶/分"
+				},
+				{
+					"label": "贴标精度",
+					"value": "±0.5mm"
+				},
+				{
+					"label": "标签尺寸",
+					"value": "25-200mm"
+				},
+				{
+					"label": "瓶子外径",
+					"value": "16-40mm"
+				},
+				{
+					"label": "总功率",
+					"value": "1.5KW"
+				},
+				{
+					"label": "电源",
+					"value": "220V、50Hz"
+				},
+				{
+					"label": "气源",
+					"value": "0.5MPa"
+				}, {
+					"label": "外形尺寸",
+					"value": "2710*1325*1390mm（L*W*H）"
+				}, {
+					"label": "总重量",
+					"value": "400KG"
+				}
+			],
+			"features": [{
+					"title": "智能变频",
+					"desc": "入料输送带上瓶子少于一定量时，机器可自动降低贴标速度"
+				},
+				{
+					"title": "多标头配置",
+					"desc": "贴标主机头为三段走标系统，分为供标、拉标和底纸回收系统，每个系统都有单独的电机控制，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
+				},
+				{
+					"title": "故障自诊断",
+					"desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新设定，直接调用即可，大大提高工作效率。"
+				}, {
+					"title": "稳定牢固",
+					"desc": "使用立式水平方向送瓶，入料稳定，操作方便，轮附式滚压瓶体，使标签附着更加牢固。"
+				}
+			],
+			"applications": ["制药", "日化", "食品"],
+			"featured": true,
+			"sort": 2
+		}, {
+			"id": "eq-002",
+			"categoryId": "labeling",
+			"name": "立式圆瓶贴标机",
+			"summary": "适用于圆瓶、扁瓶的标签贴合，支持正反标",
+			"cover": "/static/placeholder.png",
+			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"tags": ["高精度", "变频"],
+			"specs": [{
+					"label": "贴标速度",
+					"value": "200 件/分钟"
+				},
+				{
+					"label": "贴标精度",
+					"value": "±1mm"
+				},
+				{
+					"label": "标签尺寸",
+					"value": "宽 10-200mm"
+				}
+			],
+			"features": [{
+					"title": "智能纠偏",
+					"desc": "光电检测配合伺服纠偏，贴标位置稳定"
+				},
+				{
+					"title": "多标头配置",
+					"desc": "可选单标、双标、套标等多种贴标方式"
+				},
+				{
+					"title": "故障自诊断",
+					"desc": "缺标、断标自动报警并停机保护"
+				}
+			],
+			"applications": ["制药", "日化", "食品"],
+			"featured": true,
+			"sort": 2
+		},
+		{
+			"id": "eq-003",
+			"categoryId": "cartoning",
+			"name": "全自动装盒机",
+			"summary": "药品泡罩板、瓶装产品自动折盒装盒",
+			"cover": "/static/placeholder.png",
+			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"tags": ["联动线", "高速"],
+			"specs": [{
+					"label": "装盒速度",
+					"value": "80 盒/分钟"
+				},
+				{
+					"label": "纸盒规格",
+					"value": "长 50-200mm"
+				},
+				{
+					"label": "电源",
+					"value": "380V / 50Hz"
+				}
+			],
+			"features": [{
+					"title": "连续供盒",
+					"desc": "纸盒库自动补料，减少停机换料时间"
+				},
+				{
+					"title": "缺料检测",
+					"desc": "产品、说明书、纸盒缺料自动停机提示"
+				},
+				{
+					"title": "柔性调节",
+					"desc": "手轮与刻度快速调节，适应多种盒型"
+				}
+			],
+			"applications": ["固体制剂", "医疗器械", "保健品"],
+			"featured": true,
+			"sort": 3
+		},
+		{
+			"id": "eq-004",
+			"categoryId": "blister",
+			"name": "铝塑泡罩包装机",
+			"summary": "片剂、胶囊铝塑泡罩密封包装",
+			"cover": "/static/placeholder.png",
+			"images": ["/static/placeholder.png", "/static/placeholder.png"],
+			"tags": ["铝塑", "热封"],
+			"specs": [{
+					"label": "冲裁频率",
+					"value": "60 次/分钟"
+				},
+				{
+					"label": "泡罩深度",
+					"value": "最大 15mm"
+				},
+				{
+					"label": "适用片径",
+					"value": "φ3 - φ25mm"
+				}
+			],
+			"features": [{
+					"title": "恒温热封",
+					"desc": "PID 控温热封辊，封合牢固、外观平整"
+				},
+				{
+					"title": "无废料冲裁",
+					"desc": "优化冲裁布局，提高包材利用率"
+				},
+				{
+					"title": "安全防护",
+					"desc": "防护罩联锁，开门自动切断动力"
+				}
+			],
+			"applications": ["片剂", "胶囊", "含片"],
+			"featured": false,
+			"sort": 4
+		}
+
+
+	]
 }

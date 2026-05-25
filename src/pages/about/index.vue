@@ -1,11 +1,11 @@
 <template>
   <scroll-view scroll-y class="page">
     <view class="brand-header">
-      <image class="logo" :src="company.logo" mode="aspectFit" />
-      <view class="brand-text">
-        <text class="name">{{ company.brandName }}</text>
-        <text class="slogan">{{ company.slogan }}</text>
+      <view class="logo-wrap">
+        <image class="company-logo" :src="company.logo" mode="widthFix" />
       </view>
+      <text class="brand-name">{{ company.brandName }}</text>
+      <text class="slogan">{{ company.slogan }}</text>
     </view>
 
     <view class="card">
@@ -14,36 +14,18 @@
     </view>
 
     <view class="card">
-      <SectionTitle title="发展历程" />
-      <view class="timeline">
-        <view v-for="(item, index) in company.milestones" :key="index" class="timeline-item">
-          <view class="line-col">
-            <view class="dot" />
-            <view v-if="index < company.milestones.length - 1" class="line" />
-          </view>
-          <view class="content-col">
-            <text class="year">{{ item.year }}</text>
-            <text class="event">{{ item.event }}</text>
-          </view>
-        </view>
-      </view>
+      <SectionTitle title="企业文化" />
+      <CorporateCulture :culture="company.culture" />
     </view>
 
     <view class="card">
       <SectionTitle title="资质荣誉" />
-      <scroll-view scroll-x class="cert-scroll">
-        <view class="cert-list">
-          <view
-            v-for="(cert, index) in company.certifications"
-            :key="index"
-            class="cert-item"
-            @tap="previewCert(index)"
-          >
-            <image class="cert-img" :src="cert.image" mode="aspectFit" />
-            <text class="cert-name">{{ cert.name }}</text>
-          </view>
-        </view>
-      </scroll-view>
+      <image
+        class="honors-img"
+        :src="company.honorsImage"
+        mode="widthFix"
+        @tap="previewHonors"
+      />
     </view>
 
     <view class="card">
@@ -79,14 +61,14 @@
 import { computed } from 'vue';
 import SectionTitle from '@/components/SectionTitle.vue';
 import ExpandText from '@/components/ExpandText.vue';
+import CorporateCulture from '@/components/CorporateCulture.vue';
 import { getCompany } from '@/utils/content';
 
 const company = getCompany();
 const introFullText = computed(() => company.intro.join('\n\n'));
 
-function previewCert(index: number) {
-  const urls = company.certifications.map((c) => c.image);
-  uni.previewImage({ urls, current: urls[index] });
+function previewHonors() {
+  uni.previewImage({ urls: [company.honorsImage], current: company.honorsImage });
 }
 
 function onCallSales() {
@@ -125,36 +107,40 @@ function openMap() {
 }
 
 .brand-header {
-  display: flex;
-  align-items: center;
-  padding: 32rpx;
+  padding: 24rpx;
   margin-bottom: $spacing-page;
-  background: linear-gradient(135deg, $primary-dark, $primary);
+  background: $bg-card;
   border-radius: $card-radius;
-  color: #fff;
+  box-shadow: 0 4rpx 16rpx rgba(31, 41, 55, 0.06);
 
-  .logo {
-    width: 120rpx;
-    height: 120rpx;
-    border-radius: 16rpx;
+  .logo-wrap {
+    padding: 20rpx 16rpx;
     background: #fff;
-    margin-right: 24rpx;
+    border-radius: 12rpx;
   }
 
-  .brand-text {
-    flex: 1;
+  .company-logo {
+    width: 100%;
+    display: block;
+  }
 
-    .name {
-      display: block;
-      font-size: 34rpx;
-      font-weight: 700;
-      margin-bottom: 8rpx;
-    }
+  .brand-name {
+    display: block;
+    margin-top: 16rpx;
+    font-size: 32rpx;
+    font-weight: 700;
+    color: $text-primary;
+    text-align: center;
+    line-height: 1.4;
+  }
 
-    .slogan {
-      font-size: 24rpx;
-      opacity: 0.9;
-    }
+  .slogan {
+    display: block;
+    margin-top: 8rpx;
+    font-size: 26rpx;
+    color: $text-secondary;
+    text-align: center;
+    line-height: 1.5;
   }
 }
 
@@ -166,82 +152,10 @@ function openMap() {
   box-shadow: 0 4rpx 16rpx rgba(31, 41, 55, 0.06);
 }
 
-.timeline {
-  .timeline-item {
-    display: flex;
-
-    .line-col {
-      width: 40rpx;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-right: 20rpx;
-
-      .dot {
-        width: 20rpx;
-        height: 20rpx;
-        border-radius: 50%;
-        background: $primary;
-        flex-shrink: 0;
-      }
-
-      .line {
-        flex: 1;
-        width: 4rpx;
-        background: $primary-light;
-        min-height: 60rpx;
-      }
-    }
-
-    .content-col {
-      flex: 1;
-      padding-bottom: 32rpx;
-
-      .year {
-        display: block;
-        font-size: 30rpx;
-        font-weight: 600;
-        color: $primary;
-        margin-bottom: 8rpx;
-      }
-
-      .event {
-        font-size: 28rpx;
-        color: $text-secondary;
-        line-height: 1.6;
-      }
-    }
-  }
-}
-
-.cert-scroll {
+.honors-img {
   width: 100%;
-}
-
-.cert-list {
-  display: inline-flex;
-  gap: 20rpx;
-}
-
-.cert-item {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200rpx;
-
-  .cert-img {
-    width: 200rpx;
-    height: 140rpx;
-    background: $bg-page;
-    border-radius: 12rpx;
-  }
-
-  .cert-name {
-    margin-top: 12rpx;
-    font-size: 22rpx;
-    color: $text-secondary;
-    text-align: center;
-  }
+  border-radius: 12rpx;
+  background: $bg-page;
 }
 
 .contact-row {

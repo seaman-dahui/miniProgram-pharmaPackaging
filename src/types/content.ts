@@ -43,14 +43,35 @@ export interface EquipmentData {
   banners: Banner[];
 }
 
-export interface Milestone {
-  year: string;
-  event: string;
+export interface CultureBlock {
+  title: string;
+  content: string;
 }
 
-export interface Certification {
-  name: string;
-  image: string;
+export interface CultureLabel {
+  zh: string;
+  en: string;
+}
+
+export interface CultureFormula {
+  title: string;
+  content: string;
+  formula: string[];
+  result: string;
+}
+
+export interface CultureServiceTenet {
+  title: string;
+  content: string;
+  values: CultureLabel[];
+}
+
+export interface CompanyCulture {
+  blocks: CultureBlock[];
+  coreValues: CultureLabel[];
+  businessPhilosophy: CultureFormula;
+  serviceTenet: CultureServiceTenet;
+  actionValues: CultureLabel[];
 }
 
 export interface Contact {
@@ -69,7 +90,7 @@ export interface CompanyData {
   logo: string;
   intro: string[];
   introSummary: string;
-  milestones: Milestone[];
-  certifications: Certification[];
+  culture: CompanyCulture;
+  honorsImage: string;
   contact: Contact;
 }

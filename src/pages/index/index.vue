@@ -1,9 +1,12 @@
 <template>
   <view class="page">
     <view class="header" :style="{ paddingTop: statusBarHeight + 'px' }">
-      <view class="header-inner" :style="{ height: navBarHeight + 'px' }">
-        <text class="brand">{{ company.brandName }}</text>
+      <view class="header-inner" :style="{ minHeight: navBarHeight + 'px' }">
+        <view class="logo-wrap">
+          <image class="company-logo" :src="company.logo" mode="aspectFit" />
+        </view>
       </view>
+      <text class="brand-name">{{ company.brandName }}</text>
       <text class="slogan">{{ company.slogan }}</text>
     </view>
 
@@ -86,7 +89,7 @@ onMounted(() => {
   if (menu) {
     navBarHeight.value = menu.height + (menu.top - statusBarHeight.value) * 2;
   }
-  const headerH = statusBarHeight.value + navBarHeight.value + 60;
+  const headerH = statusBarHeight.value + navBarHeight.value + 130;
   scrollHeight.value = `calc(100vh - ${headerH}px)`;
 });
 
@@ -131,17 +134,35 @@ function goAbout() {
   .header-inner {
     display: flex;
     align-items: center;
+    padding: 8rpx 0 12rpx;
+  }
 
-    .brand {
-      font-size: 36rpx;
-      font-weight: 700;
-    }
+  .logo-wrap {
+    width: 100%;
+    padding: 16rpx 20rpx;
+    background: #fff;
+    border-radius: 12rpx;
+    box-sizing: border-box;
+  }
+
+  .company-logo {
+    width: 100%;
+    height: 96rpx;
+  }
+
+  .brand-name {
+    display: block;
+    font-size: 30rpx;
+    font-weight: 700;
+    margin-top: 12rpx;
+    line-height: 1.4;
   }
 
   .slogan {
+    display: block;
     font-size: 24rpx;
     opacity: 0.9;
-    margin-top: 8rpx;
+    margin-top: 6rpx;
   }
 }
 
