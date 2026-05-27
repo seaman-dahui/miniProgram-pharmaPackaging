@@ -2,17 +2,20 @@
 	"categories": [{
 			"id": "labeling",
 			"name": "贴标机",
-			"emoji": "️"
+			"emoji": "",
+			"icon": "/static/categories/labeling.png"
 		},
 		{
 			"id": "pallet",
 			"name": "制托机",
-			"emoji": ""
+			"emoji": "",
+			"icon": "/static/categories/pallet.png"
 		},
 		{
 			"id": "sleeve",
 			"name": "套标机",
-			"emoji": "️"
+			"emoji": "",
+			"icon": "/static/categories/sleeve.png"
 		}
 	],
 	"banners": [{

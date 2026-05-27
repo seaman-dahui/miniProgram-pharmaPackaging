@@ -1,7 +1,6 @@
 <template>
   <view class="contact-bar">
     <view class="btn primary" @tap="onCall">
-      <text class="btn-icon">📞</text>
       <text>销售电话</text>
     </view>
   </view>
@@ -40,10 +39,6 @@ function onCall() {
     justify-content: center;
     font-size: 28rpx;
     font-weight: 500;
-
-    .btn-icon {
-      margin-right: 8rpx;
-    }
 
     &.primary {
       background: $primary;

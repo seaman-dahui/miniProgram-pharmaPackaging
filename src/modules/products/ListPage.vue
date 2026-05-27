@@ -17,7 +17,7 @@
         :class="{ active: activeCategory === cat.id }"
         @tap="setCategory(cat.id)"
       >
-        {{ cat.emoji }} {{ cat.name }}
+        {{ cat.name }}
       </view>
     </scroll-view>
 

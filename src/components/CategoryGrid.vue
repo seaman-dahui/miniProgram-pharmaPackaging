@@ -6,8 +6,15 @@
       class="grid-item"
       @tap="$emit('select', item.id)"
     >
-      <view class="emoji-wrap">
-        <text class="emoji">{{ item.emoji }}</text>
+      <view class="icon-wrap">
+        <image
+          v-if="item.icon"
+          class="icon"
+          :src="item.icon"
+          mode="aspectFit"
+          :show-menu-by-longpress="false"
+        />
+        <text v-else-if="item.emoji" class="emoji">{{ item.emoji }}</text>
       </view>
       <text class="name">{{ item.name }}</text>
     </view>
@@ -40,7 +47,7 @@ defineEmits<{
     align-items: center;
     padding: 16rpx 0;
 
-    .emoji-wrap {
+    .icon-wrap {
       width: 96rpx;
       height: 96rpx;
       border-radius: 24rpx;
@@ -49,6 +56,11 @@ defineEmits<{
       align-items: center;
       justify-content: center;
       margin-bottom: 12rpx;
+
+      .icon {
+        width: 64rpx;
+        height: 64rpx;
+      }
 
       .emoji {
         font-size: 44rpx;
