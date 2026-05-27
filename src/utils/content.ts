@@ -31,10 +31,16 @@ export function getProducts(categoryId?: string): Product[] {
   return list;
 }
 
+/** Main-package covers for home tab (subpackage static fails on device first paint). */
+function getHomeFeaturedCover(productId: string): string {
+  return `/static/home/featured/${productId}.png`;
+}
+
 export function getFeaturedProducts(): Product[] {
   return equipment.products
     .filter((p) => p.featured)
-    .sort((a, b) => a.sort - b.sort);
+    .sort((a, b) => a.sort - b.sort)
+    .map((p) => ({ ...p, cover: getHomeFeaturedCover(p.id) }));
 }
 
 export function getProductById(id: string): Product | undefined {
