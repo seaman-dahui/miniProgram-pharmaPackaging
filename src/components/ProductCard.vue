@@ -1,17 +1,23 @@
 <template>
   <view class="product-card" @tap="onTap">
-    <image class="cover" :src="product.cover" mode="aspectFill" />
+    <ProtectedImage class="cover" :src="product.cover" mode="aspectFill" />
     <view class="info">
-      <text class="name">{{ product.name }}</text>
-      <text class="summary">{{ product.summary }}</text>
+      <text class="name" selectable="false">{{ product.name }}</text>
+      <text class="summary" selectable="false">{{ product.summary }}</text>
       <view v-if="product.tags?.length" class="tags">
-        <text v-for="tag in product.tags.slice(0, 2)" :key="tag" class="tag">{{ tag }}</text>
+        <text
+          v-for="tag in product.tags.slice(0, 2)"
+          :key="tag"
+          class="tag"
+          selectable="false"
+        >{{ tag }}</text>
       </view>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
+import ProtectedImage from '@/components/ProtectedImage.vue';
 import type { Product } from '@/types/content';
 import { SUBPACKAGE } from '@/utils/routes';
 

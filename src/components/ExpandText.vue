@@ -1,7 +1,7 @@
 <template>
   <view class="expand-text">
-    <text class="content" :class="{ collapsed: !expanded }">{{ text }}</text>
-    <text v-if="showToggle" class="toggle" @tap="expanded = !expanded">
+    <text class="content" :class="{ collapsed: !expanded }" selectable="false">{{ text }}</text>
+    <text v-if="showToggle" class="toggle" selectable="false" @tap="expanded = !expanded">
       {{ expanded ? '收起' : '展开' }}
     </text>
   </view>

@@ -8,7 +8,7 @@
     :interval="3000"
   >
     <swiper-item v-for="(src, index) in images" :key="index">
-      <image
+      <ProtectedImage
         class="slide-image"
         :src="src"
         mode="aspectFill"
@@ -19,6 +19,9 @@
 </template>
 
 <script setup lang="ts">
+import ProtectedImage from '@/components/ProtectedImage.vue';
+import { previewImages } from '@/utils/preview';
+
 const props = withDefaults(
   defineProps<{
     images: string[];
@@ -33,10 +36,7 @@ const props = withDefaults(
 
 function onPreview(current: number) {
   if (!props.images.length) return;
-  uni.previewImage({
-    urls: props.images,
-    current: props.images[current],
-  });
+  previewImages(props.images, props.images[current]);
 }
 </script>
 

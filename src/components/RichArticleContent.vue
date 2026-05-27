@@ -1,27 +1,29 @@
 <template>
   <view class="article-content">
     <block v-for="(block, index) in blocks" :key="index">
-      <text v-if="block.type === 'text'" class="paragraph">{{ block.content }}</text>
-      <image
+      <text v-if="block.type === 'text'" class="paragraph" selectable="false">{{ block.content }}</text>
+      <ProtectedImage
         v-else
         class="article-image"
         :src="block.content"
         mode="widthFix"
-        @tap="previewImage(block.content)"
+        @tap="onPreview(block.content)"
       />
     </block>
   </view>
 </template>
 
 <script setup lang="ts">
+import ProtectedImage from '@/components/ProtectedImage.vue';
 import type { NewsBlock } from '@/types/content';
+import { previewImages } from '@/utils/preview';
 
 defineProps<{
   blocks: NewsBlock[];
 }>();
 
-function previewImage(url: string) {
-  uni.previewImage({ urls: [url], current: url });
+function onPreview(url: string) {
+  previewImages([url], url);
 }
 </script>
 

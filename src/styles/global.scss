@@ -1,5 +1,12 @@
 @import './variables.scss';
 
+page,
+view,
+text {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 .card {
   background: $bg-card;
   border-radius: $card-radius;

@@ -7,7 +7,7 @@
   >
     <view class="brand-header">
       <view class="logo-wrap">
-        <image class="company-logo" :src="company.logo" mode="widthFix" />
+        <ProtectedImage class="company-logo" :src="company.logo" mode="widthFix" />
       </view>
       <text class="brand-name">{{ company.brandName }}</text>
       <text class="slogan">{{ company.slogan }}</text>
@@ -37,7 +37,7 @@
 
     <view id="anchor-honors" class="card">
       <SectionTitle title="资质荣誉" />
-      <image
+      <ProtectedImage
         class="honors-img"
         :src="company.honorsImage"
         mode="widthFix"
@@ -47,7 +47,7 @@
 
     <view id="anchor-partners" class="card">
       <SectionTitle title="合作伙伴" />
-      <image
+      <ProtectedImage
         class="honors-img"
         :src="company.partnerImage"
         mode="widthFix"
@@ -89,7 +89,9 @@ import { computed, nextTick, ref } from 'vue';
 import SectionTitle from '@/components/SectionTitle.vue';
 import ExpandText from '@/components/ExpandText.vue';
 import CorporateCulture from '@/components/CorporateCulture.vue';
+import ProtectedImage from '@/components/ProtectedImage.vue';
 import { getCompany } from '@/utils/content';
+import { previewImages } from '@/utils/preview';
 
 const anchors = [
   { id: 'anchor-intro', label: '公司介绍' },
@@ -113,7 +115,7 @@ function scrollToSection(id: string) {
 }
 
 function previewHonors(image: string) {
-  uni.previewImage({ urls: [image], current: image });
+  previewImages([image], image);
 }
 
 function onCallSales() {

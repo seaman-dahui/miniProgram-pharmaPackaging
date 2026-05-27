@@ -15,5 +15,7 @@ page {
   background-color: $bg-page;
   color: $text-primary;
   font-size: 28rpx;
+  user-select: none;
+  -webkit-user-select: none;
 }
 </style>
