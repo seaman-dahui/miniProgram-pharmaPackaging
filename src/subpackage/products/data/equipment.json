@@ -1,1638 +1,1952 @@
 {
-	"categories": [{
-			"id": "labeling",
-			"name": "贴标机",
-			"emoji": "",
-			"icon": "/static/categories/labeling.png"
-		},
-		{
-			"id": "pallet",
-			"name": "制托机",
-			"emoji": "",
-			"icon": "/static/categories/pallet.png"
-		},
-		{
-			"id": "sleeve",
-			"name": "套标机",
-			"emoji": "",
-			"icon": "/static/categories/sleeve.png"
-		}
-	],
-	"banners": [{
-			"id": "b1",
-			"image": "/static/home/banner/banner1.png",
-			"title": "智能医药包装整体解决方案",
-			"linkProductId": "web-26"
-		},
-		{
-			"id": "b2",
-			"image": "/static/home/banner/banner2.png",
-			"title": "符合 GMP 规范的高速生产线",
-			"linkProductId": "web-26"
-		},
-		{
-			"id": "b3",
-			"image": "/static/home/banner/banner3.png",
-			"title": "符合 GMP 规范的高速生产线",
-			"linkProductId": "web-26"
-		},
-		{
-			"id": "b4",
-			"image": "/static/home/banner/banner4.png",
-			"title": "符合 GMP 规范的高速生产线",
-			"linkProductId": "web-26"
-		}
-	],
-	"products": [{
-			"id": "web-26",
-			"categoryId": "labeling",
-			"name": "S-750高速回转式贴标机",
-			"summary": "本设备用于圆瓶的立式贴标。",
-			"cover": "/subpackage/products/static/products/26/cover.png",
-			"images": [
-				"/subpackage/products/static/products/26/cover.png",
-				"/subpackage/products/static/products/26/detail-1.png",
-				"/subpackage/products/static/products/26/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16-40mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0-700瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±0.5mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25-200mm"
-				},
-				{
-					"label": "总功率",
-					"value": "1.5KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "气源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2710*1325*1390mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "400KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备用于圆瓶的立式贴标。"
-				},
-				{
-					"title": "特点2",
-					"desc": "贴标主机头为三段走标系统，分为供标、拉标和底纸回收系统，每个系统都有单独的电机控制，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用立式水平方向送瓶，入料稳定，操作方便。"
-				},
-				{
-					"title": "特点4",
-					"desc": "入料输送带上瓶子少于一定量时，机器可自动降低贴标速度。"
-				},
-				{
-					"title": "特点5",
-					"desc": "使用螺杆实现分瓶，与星盘机构使用同一个动力，实现同步运行，动作准确无误，不会出现卡瓶和碎瓶的现象，确保设备稳定运行。"
-				},
-				{
-					"title": "特点6",
-					"desc": "轮附式滚压瓶体，使标签附着更加牢固。"
-				},
-				{
-					"title": "特点6",
-					"desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新设定，直接调用即可，大大提高工作效率。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": true,
-			"sort": 1
-		},
-		{
-			"id": "web-260",
-			"categoryId": "labeling",
-			"name": "S-760高速回转式贴标机",
-			"summary": "本设备用于圆瓶的立式贴标。",
-			"cover": "/subpackage/products/static/products/260/cover.png",
-			"images": [
-				"/subpackage/products/static/products/260/cover.png",
-				"/subpackage/products/static/products/260/detail-1.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16-40mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0-700瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±0.5mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25-200mm"
-				},
-				{
-					"label": "总功率",
-					"value": "1.5KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "气源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2710*1325*1390mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "400KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备用于圆瓶的立式贴标。"
-				},
-				{
-					"title": "特点2",
-					"desc": "贴标主机头为三段走标系统，分为供标、拉标和底纸回收系统，每个系统都有单独的电机控制，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用立式水平方向送瓶，入料稳定，操作方便。"
-				},
-				{
-					"title": "特点4",
-					"desc": "入料输送带上瓶子少于一定量时，机器可自动降低贴标速度。"
-				},
-				{
-					"title": "特点5",
-					"desc": "使用螺杆实现分瓶，与星盘机构使用同一个动力，实现同步运行，动作准确无误，不会出现卡瓶和碎瓶的现象，确保设备稳定运行。"
-				},
-				{
-					"title": "特点6",
-					"desc": "轮附式滚压瓶体，使标签附着更加牢固。"
-				},
-				{
-					"title": "特点6",
-					"desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新设定，直接调用即可，大大提高工作效率。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": true,
-			"sort": 2
-		},
-		{
-			"id": "web-22",
-			"categoryId": "labeling",
-			"name": "S-700 高速回转式贴标机",
-			"summary": "适用于各种西林瓶等圆瓶的立式贴标。",
-			"cover": "/subpackage/products/static/products/22/cover.png",
-			"images": [
-				"/subpackage/products/static/products/22/cover.png",
-				"/subpackage/products/static/products/22/detail-1.png",
-				"/subpackage/products/static/products/22/detail-2.png",
-				"/subpackage/products/static/products/22/detail-3.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16 - 52mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0 - 700瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±0.5mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25 - 80mm"
-				},
-				{
-					"label": "总功率",
-					"value": "3.0KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "3875 * 1383 * 2048mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "400KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种西林瓶等圆瓶的立式贴标。"
-				},
-				{
-					"title": "特点2",
-					"desc": "采用网带送料方式，人工上料或连接使用均可。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点4",
-					"desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
-				},
-				{
-					"title": "特点5",
-					"desc": "回转式星盘定位机构，定位精准，贴标精度高，贴标精度±0.5mm。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标速度快，Φ30mm以内西林瓶可达600瓶/分钟，优于同行业设备。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": true,
-			"sort": 3
-		},
-		{
-			"id": "web-21",
-			"categoryId": "labeling",
-			"name": "S-600回转式贴标机",
-			"summary": "适用于各种西林瓶等圆瓶的立式贴标。",
-			"cover": "/subpackage/products/static/products/21/cover.png",
-			"images": [
-				"/subpackage/products/static/products/21/cover.png",
-				"/subpackage/products/static/products/21/detail-1.png",
-				"/subpackage/products/static/products/21/detail-2.png",
-				"/subpackage/products/static/products/21/detail-3.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16 - 40mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0 - 600瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±0.5mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25 - 80mm"
-				},
-				{
-					"label": "总功率",
-					"value": "2.0KM"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "3130 * 1360 * 1900mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "400KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种西林瓶等圆瓶的立式贴标。"
-				},
-				{
-					"title": "特点2",
-					"desc": "采用转盘供料方式，人工上料或连线使用均可。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点4",
-					"desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
-				},
-				{
-					"title": "特点5",
-					"desc": "回转式星盘定位机构，定位精准，贴标精度高，贴标精度±0.5mm。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标速度快，Φ30mm以内西林瓶可达600瓶/分钟，优于同行业设备。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 4
-		},
-		{
-			"id": "web-20",
-			"categoryId": "labeling",
-			"name": "S-500型卧式贴标机",
-			"summary": "适用于各种小圆瓶的卧式标签使用。",
-			"cover": "/subpackage/products/static/products/20/cover.png",
-			"images": [
-				"/subpackage/products/static/products/20/cover.png",
-				"/subpackage/products/static/products/20/detail-1.png",
-				"/subpackage/products/static/products/20/detail-2.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种小圆瓶的卧式标签使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
-				},
-				{
-					"title": "特点3",
-					"desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点5",
-					"desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标快、精度高，贴标精度±0.5mm。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 5
-		},
-		{
-			"id": "web-243",
-			"categoryId": "labeling",
-			"name": "S-500型卧式贴标机（带防护罩）",
-			"summary": "适用于各种小圆瓶的卧式标签使用。",
-			"cover": "/subpackage/products/static/products/243/cover.png",
-			"images": [
-				"/subpackage/products/static/products/243/cover.png",
-				"/subpackage/products/static/products/243/detail-1.png",
-				"/subpackage/products/static/products/243/detail-2.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种小圆瓶的卧式标签使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
-				},
-				{
-					"title": "特点3",
-					"desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点5",
-					"desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标快、精度高，贴标精度±0.5mm。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 6
-		},
-		{
-			"id": "web-24",
-			"categoryId": "labeling",
-			"name": "S-400圆瓶贴标机（CCD视觉识别系统）",
-			"summary": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统...",
-			"cover": "/subpackage/products/static/products/24/cover.png",
-			"images": [
-				"/subpackage/products/static/products/24/cover.png",
-				"/subpackage/products/static/products/24/detail-1.png",
-				"/subpackage/products/static/products/24/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16-85mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0 - 400瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±1mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25-200mm"
-				},
-				{
-					"label": "总功率",
-					"value": "1.5KM"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "汽源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2710*1325*1390mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "280KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统及漏贴检测剔除系统。"
-				},
-				{
-					"title": "特点2",
-					"desc": "采用转盘供料方式，人工上料或连线使用均可。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
-				},
-				{
-					"title": "特点5",
-					"desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
-				},
-				{
-					"title": "特点6",
-					"desc": "【设备特点】 U形通道剔除倒瓶 特殊设计之U形通道剔除倒瓶，保证设备运行的连续性，提高 生产效率。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 7
-		},
-		{
-			"id": "web-19",
-			"categoryId": "labeling",
-			"name": "S-400立式贴标机（带防护罩）",
-			"summary": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统...",
-			"cover": "/subpackage/products/static/products/19/cover.png",
-			"images": [
-				"/subpackage/products/static/products/19/cover.png",
-				"/subpackage/products/static/products/19/detail-1.png",
-				"/subpackage/products/static/products/19/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-				"label": "瓶子外径",
-				"value": "16 - 85mm贴标速度：0 - 400瓶/分 贴标精度：±1mm标签长度：25-200mm 总功率：1.5KW电源：380V, 50HZ汽源：0.5MPa外形尺寸：2710 * 1325 * 1390mm（L*W*H）总重量：280KG"
-			}],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统及漏贴检测剔除系统。"
-				},
-				{
-					"title": "特点2",
-					"desc": "采用转盘供料方式，人工上料或连线使用均可。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
-				},
-				{
-					"title": "特点5",
-					"desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
-				},
-				{
-					"title": "特点6",
-					"desc": "【设备特点】U形通道剔除倒瓶特殊设计之U形通道剔除倒瓶，保证设备运行的连续性，提高 生产效率。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 8
-		},
-		{
-			"id": "web-261",
-			"categoryId": "labeling",
-			"name": "S-410分托、贴标、入托一体机",
-			"summary": "适用于各种小圆瓶的卧式贴标及入托使用。",
-			"cover": "/subpackage/products/static/products/261/cover.png",
-			"images": [
-				"/subpackage/products/static/products/261/cover.png",
-				"/subpackage/products/static/products/261/detail-1.png",
-				"/subpackage/products/static/products/261/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-				"label": "瓶子外径",
-				"value": "16 - 85mm贴标速度：0 - 400瓶/分 贴标精度：±1mm标签长度：25-200mm 总功率：1.5KW电源：380V, 50HZ汽源：0.5MPa外形尺寸：2710 * 1325 * 1390mm（L*W*H）总重量：280KG"
-			}],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种小圆瓶的卧式贴标及入托使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "，配备有CCD视觉识别系统及漏贴检测剔除系统。"
-				},
-				{
-					"title": "特点3",
-					"desc": "采用转盘供料方式，人工上料或连线使用均可。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点5",
-					"desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
-				},
-				{
-					"title": "特点6",
-					"desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 9
-		},
-		{
-			"id": "web-262",
-			"categoryId": "labeling",
-			"name": "S-520卧式贴标机（双标盘）",
-			"summary": "适用于各种小圆瓶的卧式标签使用。",
-			"cover": "/subpackage/products/static/products/262/cover.png",
-			"images": [
-				"/subpackage/products/static/products/262/cover.png",
-				"/subpackage/products/static/products/262/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于各种小圆瓶的卧式标签使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
-				},
-				{
-					"title": "特点3",
-					"desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点5",
-					"desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标快、精度高，贴标精度±0.5mm。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 10
-		},
-		{
-			"id": "web-125",
-			"categoryId": "pallet",
-			"name": "F-100塑瓶安瓿连体贴标机",
-			"summary": "专用于各种规格多连装塑瓶的上平面贴标使用。",
-			"cover": "/subpackage/products/static/products/125/cover.png",
-			"images": [
-				"/subpackage/products/static/products/125/cover.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "被贴物尺寸",
-					"value": "长30-150mm 宽30-120mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0 - 120板/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±1mm"
-				},
-				{
-					"label": "标签尺寸",
-					"value": "长10-120mm 宽20-120mm"
-				},
-				{
-					"label": "总功率",
-					"value": "2.5KM"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "汽源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "3900*970*2050mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "280KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "专用于各种规格多连装塑瓶的上平面贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点3",
-					"desc": "为多连装贴标专门设计的贴标主机头结构合理，分为供标、即时打印、拉标和底纸回收等部分，其中供标部分和即时打印后都设计有单独的缓冲机构，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
-				},
-				{
-					"title": "特点4",
-					"desc": "输送带上配有贴标定位快，保证输送、贴标及检测的稳定性。"
-				},
-				{
-					"title": "特点5",
-					"desc": "标签剥离距离由伺服电机、标签检测光电配合PLC自动演算，不需调整标签检测光电位置，任何标签长度在人机界面即可修改，使用方便。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 11
-		},
-		{
-			"id": "web-124",
-			"categoryId": "sleeve",
-			"name": "C-200 圆瓶定点、定位贴标机",
-			"summary": "适用于圆瓶的定点定位贴标使用。",
-			"cover": "/subpackage/products/static/products/124/cover.png",
-			"images": [
-				"/subpackage/products/static/products/124/cover.png",
-				"/subpackage/products/static/products/124/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "适用于圆瓶的定点定位贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "使用橡胶轮差速分离机构，可无级调速，分离成任何间距，更换产品时无需更换规格件。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高、稳定性好。"
-				},
-				{
-					"title": "特点4",
-					"desc": "橡胶轮滚贴机构，使用寿命长，定位贴标时标签定位精度高。"
-				},
-				{
-					"title": "特点5",
-					"desc": "贴标精度高，贴标精度±0.5mm。"
-				},
-				{
-					"title": "特点6",
-					"desc": "【Technical Parameters】 瓶子外径: 40 - 80mm 贴标速度: 0 - 120Bottle/min 贴标精度: ±0.5mm 标签长度: 25 - 200mm 总功率: 1.5KW 电源: 220V, 50HZ 气源: 0.5MPa 外形尺寸: 2710*1325*1390mm (L*W*H) 总重量: 400kg"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 12
-		},
-		{
-			"id": "web-25",
-			"categoryId": "labeling",
-			"name": "E-280单、双、三面贴标机（圆瓶、圆瓶定点、四面、多功能机）",
-			"summary": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。",
-			"cover": "/subpackage/products/static/products/25/cover.png",
-			"images": [
-				"/subpackage/products/static/products/25/cover.png",
-				"/subpackage/products/static/products/25/detail-1.png",
-				"/subpackage/products/static/products/25/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "贴标速度",
-					"value": "0 - 300瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±1mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "30 - 350mm"
-				},
-				{
-					"label": "总功率",
-					"value": "3.5KM"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "汽源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2800*1650*1750mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "500KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。"
-				},
-				{
-					"title": "特点2",
-					"desc": "使用范围广，适用性强。"
-				},
-				{
-					"title": "特点3",
-					"desc": "使用弹簧缓冲上压机构，与输送同步。"
-				},
-				{
-					"title": "特点4",
-					"desc": "保证瓶子压紧，且贴标时瓶子不倾斜。"
-				},
-				{
-					"title": "特点5",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点6",
-					"desc": "不同材质标签贴标不打皱不起泡。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 13
-		},
-		{
-			"id": "web-244",
-			"categoryId": "labeling",
-			"name": "E-260双面折角封口签贴标机",
-			"summary": "本设备专用于各种方盒的折角贴标使用。",
-			"cover": "/subpackage/products/static/products/244/cover.png",
-			"images": [
-				"/subpackage/products/static/products/244/cover.png",
-				"/subpackage/products/static/products/244/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备专用于各种方盒的折角贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "。"
-				},
-				{
-					"title": "特点3",
-					"desc": "贴标主机头伺服贴标系统，贴标稳定、快速，并且有良好的贴标精度。"
-				},
-				{
-					"title": "特点4",
-					"desc": "独特的分盒校正机构可根据产品规格任意设置分盒间距，便于贴标动作的顺利完成，提高贴标精度。"
-				},
-				{
-					"title": "特点5",
-					"desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速 使用本设备。"
-				},
-				{
-					"title": "特点6",
-					"desc": "有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新 设定，直接调用即可，大大提高工作效率。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 14
-		},
-		{
-			"id": "web-23",
-			"categoryId": "labeling",
-			"name": "E-200平面贴标机",
-			"summary": "专用于各种方盒、扁瓶的上平面贴标使用。",
-			"cover": "/subpackage/products/static/products/23/cover.png",
-			"images": [
-				"/subpackage/products/static/products/23/cover.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "被贴物尺寸",
-					"value": "长：34-350mm 高：15-320mm 宽：30-130mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0 - 200瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±1mm"
-				},
-				{
-					"label": "标签尺寸",
-					"value": "长：10-300mm 宽：20-90mm"
-				},
-				{
-					"label": "总功率",
-					"value": "1.2KM"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "汽源",
-					"value": "0.5MPa（有印字机需）"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2100*685*1680mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "180KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "专用于各种方盒、扁瓶的上平面贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点3",
-					"desc": "设备更换规格时无需更换规格件。"
-				},
-				{
-					"title": "特点4",
-					"desc": "贴标速度快，线速度可达35m/min。"
-				},
-				{
-					"title": "特点5",
-					"desc": "可与生产线连线使用也可单机使用。"
-				},
-				{
-					"title": "特点6",
-					"desc": "配有同步带夹瓶机构，产品分开一定间距的同时将产品校正成相同角度，保证贴标的精度，精度可达到±1mm。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 15
-		},
-		{
-			"id": "web-112",
-			"categoryId": "labeling",
-			"name": "S-510卧式贴标入托一体机",
-			"summary": "本设备用于圆瓶的立式贴标。",
-			"cover": "/subpackage/products/static/products/112/cover.png",
-			"images": [
-				"/subpackage/products/static/products/112/cover.png",
-				"/subpackage/products/static/products/112/detail-1.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "16-40mm"
-				},
-				{
-					"label": "贴标速度",
-					"value": "0-700瓶/分"
-				},
-				{
-					"label": "贴标精度",
-					"value": "±0.5mm"
-				},
-				{
-					"label": "标签长度",
-					"value": "25-200mm"
-				},
-				{
-					"label": "总功率",
-					"value": "1.5KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "气源",
-					"value": "0.5MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "2710*1325*1390mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "400KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备用于圆瓶的立式贴标。"
-				},
-				{
-					"title": "特点2",
-					"desc": "专用于各种小圆瓶的卧式贴标及入托使用。"
-				},
-				{
-					"title": "特点3",
-					"desc": "水平进料，上料省力，操作方便，且破瓶率低（口服液瓶小于二十万之一）。"
-				},
-				{
-					"title": "特点4",
-					"desc": "螺杆分瓶，分瓶均匀且与输送带同步，不缺瓶、不破瓶。"
-				},
-				{
-					"title": "特点5",
-					"desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点6",
-					"desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 16
-		},
-		{
-			"id": "web-113",
-			"categoryId": "labeling",
-			"name": "分托、贴标入托一体机",
-			"summary": "专用于各种小圆瓶的卧式贴标及入托使用。",
-			"cover": "/subpackage/products/static/products/113/cover.png",
-			"images": [
-				"/subpackage/products/static/products/113/cover.png",
-				"/subpackage/products/static/products/113/detail-1.png",
-				"/subpackage/products/static/products/113/detail-2.png"
-			],
-			"tags": [],
-			"specs": [{
-				"label": "瓶子外径",
-				"value": "10 - 30mm贴标入托速度：0 - 500瓶/分贴标精度：±0.5mm破瓶率：1/200000标签长度：20 - 95mm总功率：2.0KW电源：220V, 50HZ气源：0.5MPa外形尺寸：4800*1310*1700mm（L*W*H）总重量：500KG"
-			}],
-			"features": [{
-					"title": "特点1",
-					"desc": "专用于各种小圆瓶的卧式贴标及入托使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "水平进料，上料省力，操作方便，且破瓶率低（口服液瓶小于二十万之一）。"
-				},
-				{
-					"title": "特点3",
-					"desc": "螺杆分瓶，分瓶均匀且与输送带同步，不缺瓶、不破瓶。"
-				},
-				{
-					"title": "特点4",
-					"desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点5",
-					"desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标速度快、精度高，误差正负0.5毫米。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 17
-		},
-		{
-			"id": "web-114",
-			"categoryId": "labeling",
-			"name": "FT-150全自动分托机",
-			"summary": "本设备专用于实现整叠塑料托盒的自动分托动作。",
-			"cover": "/subpackage/products/static/products/114/cover.png",
-			"images": [
-				"/subpackage/products/static/products/114/cover.png",
-				"/subpackage/products/static/products/114/detail-1.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "瓶子外径",
-					"value": "长 40 - 200mm 宽 50 - 130mm"
-				},
-				{
-					"label": "分托速度",
-					"value": "0 - 160托/分"
-				},
-				{
-					"label": "适用托盘规格",
-					"value": "1 - 20 托盒"
-				},
-				{
-					"label": "总功率",
-					"value": "0.4KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "气源",
-					"value": ">=0.4MPa"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "1480*580*1388mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "100KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备专用于实现整叠塑料托盒的自动分托动作。"
-				},
-				{
-					"title": "特点2",
-					"desc": "在安瓿、口服液、西林瓶等药剂产品的包装环节中，部分产品包装时需要将产品装入塑料托盒中，此时可将本设备配备于自动入托机的前端，实现两台设备的连线、联动使用，从而完成全自动的包装生产流程。"
-				},
-				{
-					"title": "特点3",
-					"desc": "本设备具有分托速度快、分托后托盒不重叠、无吸双托现象、对托盒无损伤等优点。"
-				},
-				{
-					"title": "特点4",
-					"desc": "本设备操作、调节简单，所有参数均可在触摸屏上进行修改"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 18
-		},
-		{
-			"id": "web-115",
-			"categoryId": "pallet",
-			"name": "ZT-580 全自动制托机",
-			"summary": "该设备主要用于将PVC等塑料卷膜加热后成型成各类规格的托盒，所生产托盒...",
-			"cover": "/subpackage/products/static/products/115/cover.png",
-			"images": [
-				"/subpackage/products/static/products/115/cover.png",
-				"/subpackage/products/static/products/115/detail-1.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "最大成型面积",
-					"value": "125mm * 58mm"
-				},
-				{
-					"label": "成型冲载uqyux",
-					"value": "20 - 25次/分"
-				},
-				{
-					"label": "总耗气量",
-					"value": "30L/分"
-				},
-				{
-					"label": "气源",
-					"value": "0.6 - 0.8MPa"
-				},
-				{
-					"label": "总功率",
-					"value": "6KW"
-				},
-				{
-					"label": "电源",
-					"value": "220V, 50HZ"
-				},
-				{
-					"label": "外形尺寸",
-					"value": "3460 * 1140 * 1790mm（L*W*H）"
-				},
-				{
-					"label": "总重量",
-					"value": "1500KG"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "该设备主要用于将PVC等塑料卷膜加热后成型成各类规格的托盒，所生产托盒能用于包装安瓿瓶、口服液、西林瓶、卡式瓶等各类规格小圆瓶。"
-				},
-				{
-					"title": "特点2",
-					"desc": "工艺流程：放卷→预热→成形→成形检测→冲切→产品→连接 制托机构可根据客户要求生产各类规格的托盒，更换模具即可。"
-				},
-				{
-					"title": "特点3",
-					"desc": "成型和裁切动作分别由两个伺服电机完成，托盒的成型和裁切工艺控制更加灵活方便。"
-				},
-				{
-					"title": "特点4",
-					"desc": "可实现设备的停止、启动动作无缝连接，在设备暂停运行一段时间再启动时，不会产生费托，节约成本。"
-				},
-				{
-					"title": "特点5",
-					"desc": "触控式人机操作界面，任何异常人机显示并引导故障排除，操作简单，任何人皆可轻易操作快速使用本设备。"
-				},
-				{
-					"title": "特点6",
-					"desc": "多点紧急停止按钮，可于生产线上适当位置加装紧急停机钮使连线操作安全，生产顺利。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 19
-		},
-		{
-			"id": "web-122",
-			"categoryId": "labeling",
-			"name": "E-100即印即贴贴标机",
-			"summary": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字...",
-			"cover": "/subpackage/products/static/products/122/cover.png",
-			"images": [
-				"/subpackage/products/static/products/122/cover.png",
-				"/subpackage/products/static/products/122/detail-1.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "印字方式",
-					"value": "碳带热转印"
-				},
-				{
-					"label": "印字分辨率",
-					"value": "8 dot/mm (203dpi)"
-				},
-				{
-					"label": "印字宽度",
-					"value": "MAX 4〞(104mm)"
-				},
-				{
-					"label": "标签宽度",
-					"value": "MAX 114mm"
-				},
-				{
-					"label": "适合标签",
-					"value": "配合贵公司（Max W100mm）"
-				},
-				{
-					"label": "标签取放",
-					"value": "真空吸附接触式"
-				},
-				{
-					"label": "贴标位置",
-					"value": "由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
-				},
-				{
-					"label": "贴标速度",
-					"value": "20 PCS/MIN"
-				},
-				{
-					"label": "电控机盘",
-					"value": "铁板烤漆"
-				},
-				{
-					"label": "电源",
-					"value": "单相220VAC 50HZ"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字机 工业级印字头适合24hrs全天候作业 印字方式：碳带热转印 印字分辨率：8 dot/mm (203dpi) 印字宽度：MAX 4〞(104mm) 标签宽度：MAX 114mm 自动贴标机构 贴标方式：动作由气缸贴标机构执行接触喷射式贴标（高精度轴向滑轨机构，尺寸配合贵公司机台） 适合标签：配合贵公司（Max W100mm） 标签取放：真空吸附接触式 贴标位置：由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
-				},
-				{
-					"title": "特点2",
-					"desc": "贴标速度：20 PCS/MIN 电控系统 ×1套 使用世界品牌西门子PLC程控器 人机触控式屏幕 电控机盘：铁板烤漆 电源：单相220VAC 50HZ 作业状态指示灯座 ×1 set"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 20
-		},
-		{
-			"id": "web-127",
-			"categoryId": "labeling",
-			"name": "E-300高速平面贴机",
-			"summary": "专用于各种扁瓶的卧式贴标使用。",
-			"cover": "/subpackage/products/static/products/127/cover.png",
-			"images": [
-				"/subpackage/products/static/products/127/cover.png",
-				"/subpackage/products/static/products/127/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "专用于各种扁瓶的卧式贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
-				},
-				{
-					"title": "特点3",
-					"desc": "输送机构简单合理，更换规格时无需更换规格件。"
-				},
-				{
-					"title": "特点4",
-					"desc": "贴标速度快，线速度可达50m/min；精度高，误差±1mm。"
-				},
-				{
-					"title": "特点5",
-					"desc": "可与生产线连接使用也可单机使用。"
-				},
-				{
-					"title": "特点6",
-					"desc": "【Technical Parameters】 被贴物尺寸: 35-320mm 30-130mm 贴标速度: 0 - 250Bottle/min 贴标精度: ±1mm 标签长度: 10 - 300mm 标签宽度: 20 - 90mm 总功率: 1.5KW 电源: 220V, 50HZ 气源: 0.5MPa 外形尺寸: 2400*600*1680mm (L*W*H) 总重量: 220kg"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 21
-		},
-		{
-			"id": "web-128",
-			"categoryId": "pallet",
-			"name": "F-300预充式注射贴标机",
-			"summary": "",
-			"cover": "/subpackage/products/static/products/128/cover.png",
-			"images": [
-				"/subpackage/products/static/products/128/cover.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-				"title": "产品特点",
-				"desc": "详见设备描述"
-			}],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 22
-		},
-		{
-			"id": "web-245",
-			"categoryId": "labeling",
-			"name": "E-150上贴式实时打印贴标机",
-			"summary": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字...",
-			"cover": "/subpackage/products/static/products/245/cover.png",
-			"images": [
-				"/subpackage/products/static/products/245/cover.png"
-			],
-			"tags": [],
-			"specs": [{
-					"label": "印字方式",
-					"value": "碳带热转印"
-				},
-				{
-					"label": "印字分辨率",
-					"value": "8 dot/mm (203dpi)"
-				},
-				{
-					"label": "印字宽度",
-					"value": "MAX 4〞(104mm)"
-				},
-				{
-					"label": "标签宽度",
-					"value": "MAX 114mm"
-				},
-				{
-					"label": "适合标签",
-					"value": "配合贵公司（Max W100mm）"
-				},
-				{
-					"label": "标签取放",
-					"value": "真空吸附接触式"
-				},
-				{
-					"label": "贴标位置",
-					"value": "由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
-				},
-				{
-					"label": "贴标速度",
-					"value": "20 PCS/MIN"
-				},
-				{
-					"label": "电控机盘",
-					"value": "铁板烤漆"
-				},
-				{
-					"label": "电源",
-					"value": "单相220VAC 50HZ"
-				}
-			],
-			"features": [{
-					"title": "特点1",
-					"desc": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字机 工业级印字头适合24hrs全天候作业 印字方式：碳带热转印 印字分辨率：8 dot/mm (203dpi) 印字宽度：MAX 4〞(104mm) 标签宽度：MAX 114mm 自动贴标机构 贴标方式：动作由气缸贴标机构执行接触喷射式贴标（高精度轴向滑轨机构，尺寸配合贵公司机台） 适合标签：配合贵公司（Max W100mm） 标签取放：真空吸附接触式 贴标位置：由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
-				},
-				{
-					"title": "特点2",
-					"desc": "贴标速度：20 PCS/MIN 电控系统 ×1套 使用世界品牌西门子PLC程控器 人机触控式屏幕 电控机盘：铁板烤漆 电源：单相220VAC 50HZ 作业状态指示灯座 ×1 set"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 23
-		},
-		{
-			"id": "web-477",
-			"categoryId": "labeling",
-			"name": "E-260双面折角封口贴标机",
-			"summary": "本设备专用于各种方盒的折角贴标使用。",
-			"cover": "/subpackage/products/static/products/477/cover.png",
-			"images": [
-				"/subpackage/products/static/products/477/cover.png"
-			],
-			"tags": [],
-			"specs": [{
-				"label": "贴标速度",
-				"value": "0-150盒/分贴标精度：±1mm适用纸盒范围：L:100-200mmW:30-200mmH：15-100mm适用标签范围：H:15-30mmL:15-30mm功率：2.0KW气源压力：0.4-0.6Mpa进气管直径：φ8mm总重量：380KG"
-			}],
-			"features": [{
-					"title": "特点1",
-					"desc": "本设备专用于各种方盒的折角贴标使用。"
-				},
-				{
-					"title": "特点2",
-					"desc": "方盒两侧可同时贴标，纸盒之间保持一定距离的间隔，然后进行贴标。"
-				},
-				{
-					"title": "特点3",
-					"desc": "两贴标主机头均为伺服贴标系统。"
-				},
-				{
-					"title": "特点4",
-					"desc": "纸盒通过输送带输送至分盒机构，分开间距后进入上压机构，产品在上压机构与输送带同步输送的过程中贴标主机头出标，将不干胶标签贴到纸盒上，并通过压标机构将标签压牢，完成贴标。"
-				},
-				{
-					"title": "特点5",
-					"desc": "设备操作方向为左式，即左侧进料右侧出料，设备可单机使用，也可与上下游设备连线及联动。"
-				},
-				{
-					"title": "特点6",
-					"desc": "贴标主机相对于机箱台面的高度可调节，从而调节标签相对于产品的贴标高低位置。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 24
-		},
-		{
-			"id": "web-478",
-			"categoryId": "labeling",
-			"name": "G450-XT高速旋杆贴标机",
-			"summary": "l 适用于预充式注射器灌装封槌后的自动扭杆贴标l 旋杆采用离心式送料盘送料...",
-			"cover": "/subpackage/products/static/products/478/cover.png",
-			"images": [
-				"/subpackage/products/static/products/478/cover.png",
-				"/subpackage/products/static/products/478/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-				"title": "特点1",
-				"desc": "l 适用于预充式注射器灌装封槌后的自动扭杆贴标l 旋杆采用离心式送料盘送料，噪声小，平稳，速度快l 注射器针筒采用斜坡S形滑道送筒，冲击小，破损低l 规格更换采用刻度四面预置靠山结构，囊括注射器所有规格l 具有防碎瓶碎杆过载保护功能，破瓶率极低l 同步机械爪，抓杆正，防倒转齿形，免伤杆l 同步带摩擦旋瓶机构，可数字调整摩擦压瓶压力，防过旋l 可开合高速同步轮附机构，调试、维修、换签方便l 配扭矩检测功能，防欠旋，具有补旋功能l 正压剔除系统，稳定可靠l 打码头具有整体移出功能，且有自锁型旋钮柱塞定位，方便快速换标，换标时间短l 推杆规格更换具有一键升降功能，数显显示，高效快捷l 采用西门子伺服电机和运动控制器，双瓶控制，贴标精度高"
-			}],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 25
-		},
-		{
-			"id": "web-479",
-			"categoryId": "labeling",
-			"name": "G450-TC 智能脱巢机",
-			"summary": "l 适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1...",
-			"cover": "/subpackage/products/static/products/479/cover.png",
-			"images": [
-				"/subpackage/products/static/products/479/cover.png",
-				"/subpackage/products/static/products/479/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-				"title": "特点1",
-				"desc": "l 适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1-5ml)螺旋头注射器l 采用PU钢丝同步带上料，连线和人工上料均可l 采用进口伺服电机，精度高工作性能稳定等特点l 采用进口气动元件，反应敏捷工作性能稳定等特点l 巢盒和巢板有独立堆叠搜集功能及巢盒和巢板满料报警l 真空吸附巢板，真空度数字显示，掉压报警"
-			}],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 26
-		},
-		{
-			"id": "web-480",
-			"categoryId": "labeling",
-			"name": "G450-HC1500缓冲站",
-			"summary": "l 适用于0.5-5ml预充针缓存。",
-			"cover": "/subpackage/products/static/products/480/cover.png",
-			"images": [
-				"/subpackage/products/static/products/480/cover.png",
-				"/subpackage/products/static/products/480/detail-1.png"
-			],
-			"tags": [],
-			"specs": [],
-			"features": [{
-					"title": "特点1",
-					"desc": "l 适用于0.5-5ml预充针缓存。"
-				},
-				{
-					"title": "特点2",
-					"desc": "l 采用双拨轮送瓶方式，拨料稳定，不会打滑。"
-				},
-				{
-					"title": "特点3",
-					"desc": "l 使用进口知名品牌电机，左右横移位置准确。"
-				},
-				{
-					"title": "特点4",
-					"desc": "l 滑轨采用进口材料，不易变形、不伤瓶身、下滑顺畅。"
-				},
-				{
-					"title": "特点5",
-					"desc": "l 滑轨机构设计窄小，减小空间，缓存量大。"
-				},
-				{
-					"title": "特点6",
-					"desc": "l 轨道组，设计结构巧妙，更换规格方便。"
-				}
-			],
-			"applications": [
-				"制药",
-				"食品",
-				"日化"
-			],
-			"featured": false,
-			"sort": 27
-		}
-	]
+  "categories": [
+    {
+      "id": "labeling",
+      "name": "贴标机",
+      "emoji": "",
+      "icon": "/static/categories/labeling.png"
+    },
+    {
+      "id": "pallet",
+      "name": "制托机",
+      "emoji": "",
+      "icon": "/static/categories/pallet.png"
+    },
+    {
+      "id": "sleeve",
+      "name": "套标机",
+      "emoji": "",
+      "icon": "/static/categories/sleeve.png"
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "image": "/static/home/banner/banner1.png",
+      "title": "智能医药包装整体解决方案",
+      "linkProductId": "web-26"
+    },
+    {
+      "id": "b2",
+      "image": "/static/home/banner/banner2.png",
+      "title": "符合 GMP 规范的高速生产线",
+      "linkProductId": "web-26"
+    },
+    {
+      "id": "b3",
+      "image": "/static/home/banner/banner3.png",
+      "title": "符合 GMP 规范的高速生产线",
+      "linkProductId": "web-26"
+    },
+    {
+      "id": "b4",
+      "image": "/static/home/banner/banner4.png",
+      "title": "符合 GMP 规范的高速生产线",
+      "linkProductId": "web-26"
+    }
+  ],
+  "products": [
+    {
+      "id": "web-26",
+      "categoryId": "labeling",
+      "name": "S-750高速回转式贴标机",
+      "summary": "本设备用于圆瓶的立式贴标。",
+      "cover": "/subpackage/products/static/products/26/cover.png",
+      "images": [
+        "/subpackage/products/static/products/26/cover.png",
+        "/subpackage/products/static/products/26/detail-1.png",
+        "/subpackage/products/static/products/26/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16-40mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0-700瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710*1325*1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备用于圆瓶的立式贴标。"
+        },
+        {
+          "title": "特点2",
+          "desc": "贴标主机头为三段走标系统，分为供标、拉标和底纸回收系统，每个系统都有单独的电机控制，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用立式水平方向送瓶，入料稳定，操作方便。"
+        },
+        {
+          "title": "特点4",
+          "desc": "入料输送带上瓶子少于一定量时，机器可自动降低贴标速度。"
+        },
+        {
+          "title": "特点5",
+          "desc": "使用螺杆实现分瓶，与星盘机构使用同一个动力，实现同步运行，动作准确无误，不会出现卡瓶和碎瓶的现象，确保设备稳定运行。"
+        },
+        {
+          "title": "特点6",
+          "desc": "轮附式滚压瓶体，使标签附着更加牢固。"
+        },
+        {
+          "title": "特点6",
+          "desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新设定，直接调用即可，大大提高工作效率。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": true,
+      "sort": 1
+    },
+    {
+      "id": "web-260",
+      "categoryId": "labeling",
+      "name": "S-760高速回转式贴标机",
+      "summary": "本设备用于圆瓶的立式贴标。",
+      "cover": "/subpackage/products/static/products/260/cover.png",
+      "images": [
+        "/subpackage/products/static/products/260/cover.png",
+        "/subpackage/products/static/products/260/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16-40mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0-700瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710*1325*1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备用于圆瓶的立式贴标。"
+        },
+        {
+          "title": "特点2",
+          "desc": "贴标主机头为三段走标系统，分为供标、拉标和底纸回收系统，每个系统都有单独的电机控制，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用立式水平方向送瓶，入料稳定，操作方便。"
+        },
+        {
+          "title": "特点4",
+          "desc": "入料输送带上瓶子少于一定量时，机器可自动降低贴标速度。"
+        },
+        {
+          "title": "特点5",
+          "desc": "使用螺杆实现分瓶，与星盘机构使用同一个动力，实现同步运行，动作准确无误，不会出现卡瓶和碎瓶的现象，确保设备稳定运行。"
+        },
+        {
+          "title": "特点6",
+          "desc": "轮附式滚压瓶体，使标签附着更加牢固。"
+        },
+        {
+          "title": "特点6",
+          "desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新设定，直接调用即可，大大提高工作效率。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": true,
+      "sort": 2
+    },
+    {
+      "id": "web-22",
+      "categoryId": "labeling",
+      "name": "S-700 高速回转式贴标机",
+      "summary": "适用于各种西林瓶等圆瓶的立式贴标。",
+      "cover": "/subpackage/products/static/products/22/cover.png",
+      "images": [
+        "/subpackage/products/static/products/22/cover.png",
+        "/subpackage/products/static/products/22/detail-1.png",
+        "/subpackage/products/static/products/22/detail-2.png",
+        "/subpackage/products/static/products/22/detail-3.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16 - 52mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 700瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25 - 80mm"
+        },
+        {
+          "label": "总功率",
+          "value": "3.0KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "3875 * 1383 * 2048mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种西林瓶等圆瓶的立式贴标。"
+        },
+        {
+          "title": "特点2",
+          "desc": "采用网带送料方式，人工上料或连接使用均可。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点4",
+          "desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
+        },
+        {
+          "title": "特点5",
+          "desc": "回转式星盘定位机构，定位精准，贴标精度高，贴标精度±0.5mm。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标速度快，Φ30mm以内西林瓶可达600瓶/分钟，优于同行业设备。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": true,
+      "sort": 3
+    },
+    {
+      "id": "web-21",
+      "categoryId": "labeling",
+      "name": "S-600回转式贴标机",
+      "summary": "适用于各种西林瓶等圆瓶的立式贴标。",
+      "cover": "/subpackage/products/static/products/21/cover.png",
+      "images": [
+        "/subpackage/products/static/products/21/cover.png",
+        "/subpackage/products/static/products/21/detail-1.png",
+        "/subpackage/products/static/products/21/detail-2.png",
+        "/subpackage/products/static/products/21/detail-3.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16 - 40mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 600瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25 - 80mm"
+        },
+        {
+          "label": "总功率",
+          "value": "2.0KM"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "3130 * 1360 * 1900mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种西林瓶等圆瓶的立式贴标。"
+        },
+        {
+          "title": "特点2",
+          "desc": "采用转盘供料方式，人工上料或连线使用均可。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点4",
+          "desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
+        },
+        {
+          "title": "特点5",
+          "desc": "回转式星盘定位机构，定位精准，贴标精度高，贴标精度±0.5mm。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标速度快，Φ30mm以内西林瓶可达600瓶/分钟，优于同行业设备。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 4
+    },
+    {
+      "id": "web-20",
+      "categoryId": "labeling",
+      "name": "S-500型卧式贴标机",
+      "summary": "适用于各种小圆瓶的卧式标签使用。",
+      "cover": "/subpackage/products/static/products/20/cover.png",
+      "images": [
+        "/subpackage/products/static/products/20/cover.png",
+        "/subpackage/products/static/products/20/detail-1.png",
+        "/subpackage/products/static/products/20/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种小圆瓶的卧式标签使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
+        },
+        {
+          "title": "特点3",
+          "desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点5",
+          "desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标快、精度高，贴标精度±0.5mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 5
+    },
+    {
+      "id": "web-243",
+      "categoryId": "labeling",
+      "name": "S-500型卧式贴标机（带防护罩）",
+      "summary": "适用于各种小圆瓶的卧式标签使用。",
+      "cover": "/subpackage/products/static/products/243/cover.png",
+      "images": [
+        "/subpackage/products/static/products/243/cover.png",
+        "/subpackage/products/static/products/243/detail-1.png",
+        "/subpackage/products/static/products/243/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种小圆瓶的卧式标签使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
+        },
+        {
+          "title": "特点3",
+          "desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点5",
+          "desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标快、精度高，贴标精度±0.5mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 6
+    },
+    {
+      "id": "web-24",
+      "categoryId": "labeling",
+      "name": "S-400圆瓶贴标机（CCD视觉识别系统）",
+      "summary": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统...",
+      "cover": "/subpackage/products/static/products/24/cover.png",
+      "images": [
+        "/subpackage/products/static/products/24/cover.png",
+        "/subpackage/products/static/products/24/detail-1.png",
+        "/subpackage/products/static/products/24/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16-85mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 400瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KM"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710*1325*1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "280KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统及漏贴检测剔除系统。"
+        },
+        {
+          "title": "特点2",
+          "desc": "采用转盘供料方式，人工上料或连线使用均可。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
+        },
+        {
+          "title": "特点5",
+          "desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
+        },
+        {
+          "title": "特点6",
+          "desc": "U形通道剔除倒瓶 特殊设计之U形通道剔除倒瓶，保证设备运行的连续性，提高 生产效率。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 7
+    },
+    {
+      "id": "web-19",
+      "categoryId": "labeling",
+      "name": "S-400立式贴标机（带防护罩）",
+      "summary": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统...",
+      "cover": "/subpackage/products/static/products/19/cover.png",
+      "images": [
+        "/subpackage/products/static/products/19/cover.png",
+        "/subpackage/products/static/products/19/detail-1.png",
+        "/subpackage/products/static/products/19/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16 - 85mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 400瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "380V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710 * 1325 * 1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "280KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种西林瓶、糖浆瓶等圆瓶的立式贴标使用，配备有CCD视觉识别系统及漏贴检测剔除系统。"
+        },
+        {
+          "title": "特点2",
+          "desc": "采用转盘供料方式，人工上料或连线使用均可。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
+        },
+        {
+          "title": "特点5",
+          "desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
+        },
+        {
+          "title": "特点6",
+          "desc": "U形通道剔除倒瓶特殊设计之U形通道剔除倒瓶，保证设备运行的连续性，提高 生产效率。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 8
+    },
+    {
+      "id": "web-261",
+      "categoryId": "labeling",
+      "name": "S-410分托、贴标、入托一体机",
+      "summary": "适用于各种小圆瓶的卧式贴标及入托使用。",
+      "cover": "/subpackage/products/static/products/261/cover.png",
+      "images": [
+        "/subpackage/products/static/products/261/cover.png",
+        "/subpackage/products/static/products/261/detail-1.png",
+        "/subpackage/products/static/products/261/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16 - 85mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 400瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "380V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "12710 * 1325 * 1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "280KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种小圆瓶的卧式贴标及入托使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "，配备有CCD视觉识别系统及漏贴检测剔除系统。"
+        },
+        {
+          "title": "特点3",
+          "desc": "采用转盘供料方式，人工上料或连线使用均可。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点5",
+          "desc": "使用橡胶轮差速分离机构，可无极调速，分离成任意间距，更换产品时无需更换规格件。"
+        },
+        {
+          "title": "特点6",
+          "desc": "轮附滚贴瓶身，标签粘贴牢固，调整快速方便。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 9
+    },
+    {
+      "id": "web-262",
+      "categoryId": "labeling",
+      "name": "S-520卧式贴标机（双标盘）",
+      "summary": "适用于各种小圆瓶的卧式标签使用。",
+      "cover": "/subpackage/products/static/products/262/cover.png",
+      "images": [
+        "/subpackage/products/static/products/262/cover.png",
+        "/subpackage/products/static/products/262/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于各种小圆瓶的卧式标签使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "水平进料、操控简单、破瓶率低（小于二十万分之一）。"
+        },
+        {
+          "title": "特点3",
+          "desc": "螺杆分瓶，分瓶均与且与输送带同步，不缺瓶、不破瓶。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用进口知名名牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点5",
+          "desc": "高速海绵轮附滚贴机构，缓冲性及耐磨性好。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标快、精度高，贴标精度±0.5mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 10
+    },
+    {
+      "id": "web-125",
+      "categoryId": "pallet",
+      "name": "F-100塑瓶安瓿连体贴标机",
+      "summary": "专用于各种规格多连装塑瓶的上平面贴标使用。",
+      "cover": "/subpackage/products/static/products/125/cover.png",
+      "images": ["/subpackage/products/static/products/125/cover.png"],
+      "tags": [],
+      "specs": [
+        {
+          "label": "被贴物尺寸",
+          "value": "长30-150mm 宽30-120mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 120板/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签尺寸",
+          "value": "长10-120mm 宽20-120mm"
+        },
+        {
+          "label": "总功率",
+          "value": "2.5KM"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "3900*970*2050mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "280KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "专用于各种规格多连装塑瓶的上平面贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点3",
+          "desc": "为多连装贴标专门设计的贴标主机头结构合理，分为供标、即时打印、拉标和底纸回收等部分，其中供标部分和即时打印后都设计有单独的缓冲机构，确保标签供应的快速与稳定，并保证贴标的速度与精度。"
+        },
+        {
+          "title": "特点4",
+          "desc": "输送带上配有贴标定位快，保证输送、贴标及检测的稳定性。"
+        },
+        {
+          "title": "特点5",
+          "desc": "标签剥离距离由伺服电机、标签检测光电配合PLC自动演算，不需调整标签检测光电位置，任何标签长度在人机界面即可修改，使用方便。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 11
+    },
+    {
+      "id": "web-124",
+      "categoryId": "sleeve",
+      "name": "C-200 圆瓶定点、定位贴标机",
+      "summary": "适用于圆瓶的定点定位贴标使用。",
+      "cover": "/subpackage/products/static/products/124/cover.png",
+      "images": [
+        "/subpackage/products/static/products/124/cover.png",
+        "/subpackage/products/static/products/124/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "40 - 80mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 120瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25 - 200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710*1325*1390mm (L*W*H) "
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于圆瓶的定点定位贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "使用橡胶轮差速分离机构，可无级调速，分离成任何间距，更换产品时无需更换规格件。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高、稳定性好。"
+        },
+        {
+          "title": "特点4",
+          "desc": "橡胶轮滚贴机构，使用寿命长，定位贴标时标签定位精度高。"
+        },
+        {
+          "title": "特点5",
+          "desc": "贴标精度高，贴标精度±0.5mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 12
+    },
+    {
+      "id": "web-25",
+      "categoryId": "labeling",
+      "name": "E-280单、双、三面贴标机（圆瓶、圆瓶定点、四面、多功能机）",
+      "summary": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。",
+      "cover": "/subpackage/products/static/products/25/cover.png",
+      "images": [
+        "/subpackage/products/static/products/25/cover.png",
+        "/subpackage/products/static/products/25/detail-1.png",
+        "/subpackage/products/static/products/25/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "贴标速度",
+          "value": "0 - 300瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "30 - 350mm"
+        },
+        {
+          "label": "总功率",
+          "value": "3.5KM"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2800*1650*1750mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "500KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。"
+        },
+        {
+          "title": "特点2",
+          "desc": "使用范围广，适用性强。"
+        },
+        {
+          "title": "特点3",
+          "desc": "使用弹簧缓冲上压机构，与输送同步。"
+        },
+        {
+          "title": "特点4",
+          "desc": "保证瓶子压紧，且贴标时瓶子不倾斜。"
+        },
+        {
+          "title": "特点5",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点6",
+          "desc": "不同材质标签贴标不打皱不起泡。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 13
+    },
+    {
+      "id": "web-244",
+      "categoryId": "labeling",
+      "name": "E-260双面折角封口签贴标机",
+      "summary": "本设备专用于各种方盒的折角贴标使用。",
+      "cover": "/subpackage/products/static/products/244/cover.png",
+      "images": [
+        "/subpackage/products/static/products/244/cover.png",
+        "/subpackage/products/static/products/244/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "适用容器范围",
+          "value": "可根据产品尺寸定做"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 220盒/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25 - 200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.75KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2400*1030*1570mm (L*W*H)"
+        },
+        {
+          "label": "总重量",
+          "value": "280KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备专用于各种方盒的折角贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "贴标主机头伺服贴标系统，贴标稳定、快速，并且有良好的贴标精度。"
+        },
+        {
+          "title": "特点3",
+          "desc": "独特的分盒校正机构可根据产品规格任意设置分盒间距，便于贴标动作的顺利完成，提高贴标精度。"
+        },
+        {
+          "title": "特点4",
+          "desc": "触控式人机操作界面，出现异常可在人机界面上显示并引导故障排除，操作简单，任何人皆可快速 使用本设备。有50组记忆功能（包括瓶子直径及贴标长度等参数），更换不同规格产品时无需重新 设定，直接调用即可，大大提高工作效率。"
+        },
+        {
+          "title": "特点5",
+          "desc": "标签剥离距离由伺服电机、标签检测光电配合PLC自动演算，不需调整标签检测光电位置，任何标签长度在人机界面即可修改，使用方便。"
+        },
+        {
+          "title": "特点6",
+          "desc": "无标、断标、漏标，无色带报警并自动停机，无盒不贴标。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 14
+    },
+    {
+      "id": "web-23",
+      "categoryId": "labeling",
+      "name": "E-200平面贴标机",
+      "summary": "专用于各种方盒、扁瓶的上平面贴标使用。",
+      "cover": "/subpackage/products/static/products/23/cover.png",
+      "images": ["/subpackage/products/static/products/23/cover.png"],
+      "tags": [],
+      "specs": [
+        {
+          "label": "被贴物尺寸",
+          "value": "长：34-350mm 高：15-320mm 宽：30-130mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0 - 200瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "标签尺寸",
+          "value": "长：10-300mm 宽：20-90mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.2KM"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa（有印字机需）"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2100*685*1680mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "180KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "专用于各种方盒、扁瓶的上平面贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点3",
+          "desc": "设备更换规格时无需更换规格件。"
+        },
+        {
+          "title": "特点4",
+          "desc": "贴标速度快，线速度可达35m/min。"
+        },
+        {
+          "title": "特点5",
+          "desc": "可与生产线连线使用也可单机使用。"
+        },
+        {
+          "title": "特点6",
+          "desc": "配有同步带夹瓶机构，产品分开一定间距的同时将产品校正成相同角度，保证贴标的精度，精度可达到±1mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 15
+    },
+    {
+      "id": "web-112",
+      "categoryId": "labeling",
+      "name": "S-510卧式贴标入托一体机",
+      "summary": "本设备用于圆瓶的立式贴标。",
+      "cover": "/subpackage/products/static/products/112/cover.png",
+      "images": [
+        "/subpackage/products/static/products/112/cover.png",
+        "/subpackage/products/static/products/112/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "16-40mm"
+        },
+        {
+          "label": "贴标速度",
+          "value": "0-700瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "25-200mm"
+        },
+        {
+          "label": "总功率",
+          "value": "1.5KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2710*1325*1390mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "400KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备用于圆瓶的立式贴标。"
+        },
+        {
+          "title": "特点2",
+          "desc": "专用于各种小圆瓶的卧式贴标及入托使用。"
+        },
+        {
+          "title": "特点3",
+          "desc": "水平进料，上料省力，操作方便，且破瓶率低（口服液瓶小于二十万之一）。"
+        },
+        {
+          "title": "特点4",
+          "desc": "螺杆分瓶，分瓶均匀且与输送带同步，不缺瓶、不破瓶。"
+        },
+        {
+          "title": "特点5",
+          "desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点6",
+          "desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 16
+    },
+    {
+      "id": "web-113",
+      "categoryId": "labeling",
+      "name": "分托、贴标入托一体机",
+      "summary": "专用于各种小圆瓶的卧式贴标及入托使用。",
+      "cover": "/subpackage/products/static/products/113/cover.png",
+      "images": [
+        "/subpackage/products/static/products/113/cover.png",
+        "/subpackage/products/static/products/113/detail-1.png",
+        "/subpackage/products/static/products/113/detail-2.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "10 - 30mm"
+        },
+        {
+          "label": "贴标入托速度",
+          "value": "0 - 500瓶/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "破瓶率",
+          "value": "1/200000"
+        },
+        {
+          "label": "标签长度",
+          "value": "20 - 95mm"
+        },
+        {
+          "label": "总功率",
+          "value": "2.0KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": "0.5MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "4800*1310*1700mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "500KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "专用于各种小圆瓶的卧式贴标及入托使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "水平进料，上料省力，操作方便，且破瓶率低（口服液瓶小于二十万之一）。"
+        },
+        {
+          "title": "特点3",
+          "desc": "螺杆分瓶，分瓶均匀且与输送带同步，不缺瓶、不破瓶。"
+        },
+        {
+          "title": "特点4",
+          "desc": "使用进口知名平拍伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点5",
+          "desc": "高速海绵轮附滚贴机构，缓冲性好且耐磨。"
+        },
+        {
+          "title": "特点6",
+          "desc": "贴标速度快、精度高，误差正负0.5毫米。"
+        },
+        {
+          "title": "特点7",
+          "desc": "采用独特设计的S型轨道缓冲，结构简单合理，缓冲性能好。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 17
+    },
+    {
+      "id": "web-114",
+      "categoryId": "labeling",
+      "name": "FT-150全自动分托机",
+      "summary": "本设备专用于实现整叠塑料托盒的自动分托动作。",
+      "cover": "/subpackage/products/static/products/114/cover.png",
+      "images": [
+        "/subpackage/products/static/products/114/cover.png",
+        "/subpackage/products/static/products/114/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "瓶子外径",
+          "value": "长 40 - 200mm 宽 50 - 130mm"
+        },
+        {
+          "label": "分托速度",
+          "value": "0 - 160托/分"
+        },
+        {
+          "label": "适用托盘规格",
+          "value": "1 - 20 托盒"
+        },
+        {
+          "label": "总功率",
+          "value": "0.4KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源",
+          "value": ">=0.4MPa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "1480*580*1388mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "100KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备专用于实现整叠塑料托盒的自动分托动作。"
+        },
+        {
+          "title": "特点2",
+          "desc": "在安瓿、口服液、西林瓶等药剂产品的包装环节中，部分产品包装时需要将产品装入塑料托盒中，此时可将本设备配备于自动入托机的前端，实现两台设备的连线、联动使用，从而完成全自动的包装生产流程。"
+        },
+        {
+          "title": "特点3",
+          "desc": "本设备具有分托速度快、分托后托盒不重叠、无吸双托现象、对托盒无损伤等优点。"
+        },
+        {
+          "title": "特点4",
+          "desc": "本设备操作、调节简单，所有参数均可在触摸屏上进行修改"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 18
+    },
+    {
+      "id": "web-115",
+      "categoryId": "pallet",
+      "name": "ZT-580 全自动制托机",
+      "summary": "该设备主要用于将PVC等塑料卷膜加热后成型成各类规格的托盒，所生产托盒...",
+      "cover": "/subpackage/products/static/products/115/cover.png",
+      "images": [
+        "/subpackage/products/static/products/115/cover.png",
+        "/subpackage/products/static/products/115/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "最大成型面积",
+          "value": "125mm * 58mm"
+        },
+        {
+          "label": "成型冲载uqyux",
+          "value": "20 - 25次/分"
+        },
+        {
+          "label": "总耗气量",
+          "value": "30L/分"
+        },
+        {
+          "label": "气源",
+          "value": "0.6 - 0.8MPa"
+        },
+        {
+          "label": "总功率",
+          "value": "6KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "3460 * 1140 * 1790mm（L*W*H）"
+        },
+        {
+          "label": "总重量",
+          "value": "1500KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "该设备主要用于将PVC等塑料卷膜加热后成型成各类规格的托盒，所生产托盒能用于包装安瓿瓶、口服液、西林瓶、卡式瓶等各类规格小圆瓶。"
+        },
+        {
+          "title": "特点2",
+          "desc": "工艺流程：放卷→预热→成形→成形检测→冲切→产品→连接 制托机构可根据客户要求生产各类规格的托盒，更换模具即可。"
+        },
+        {
+          "title": "特点3",
+          "desc": "成型和裁切动作分别由两个伺服电机完成，托盒的成型和裁切工艺控制更加灵活方便。"
+        },
+        {
+          "title": "特点4",
+          "desc": "可实现设备的停止、启动动作无缝连接，在设备暂停运行一段时间再启动时，不会产生费托，节约成本。"
+        },
+        {
+          "title": "特点5",
+          "desc": "触控式人机操作界面，任何异常人机显示并引导故障排除，操作简单，任何人皆可轻易操作快速使用本设备。"
+        },
+        {
+          "title": "特点6",
+          "desc": "多点紧急停止按钮，可于生产线上适当位置加装紧急停机钮使连线操作安全，生产顺利。"
+        },
+        {
+          "title": "特点7",
+          "desc": "采用全球知名电器元件，品质稳定。"
+        },
+        {
+          "title": "特点8",
+          "desc": "包装材料：pvc硬片圈（符合GB5663）（0.22-0.45mm厚）*580mm（宽）纸筒内径为75mm。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 19
+    },
+    {
+      "id": "web-122",
+      "categoryId": "labeling",
+      "name": "E-100即印即贴贴标机",
+      "summary": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字...",
+      "cover": "/subpackage/products/static/products/122/cover.png",
+      "images": [
+        "/subpackage/products/static/products/122/cover.png",
+        "/subpackage/products/static/products/122/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "印字方式",
+          "value": "碳带热转印"
+        },
+        {
+          "label": "印字分辨率",
+          "value": "8 dot/mm (203dpi)"
+        },
+        {
+          "label": "印字宽度",
+          "value": "MAX 4〞(104mm)"
+        },
+        {
+          "label": "标签宽度",
+          "value": "MAX 114mm"
+        },
+        {
+          "label": "适合标签",
+          "value": "配合贵公司（Max W100mm）"
+        },
+        {
+          "label": "标签取放",
+          "value": "真空吸附接触式"
+        },
+        {
+          "label": "贴标位置",
+          "value": "由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
+        },
+        {
+          "label": "贴标速度",
+          "value": "20 PCS/MIN"
+        },
+        {
+          "label": "电控机盘",
+          "value": "铁板烤漆"
+        },
+        {
+          "label": "电源",
+          "value": "单相220VAC 50HZ"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "工业级卷标打印主机 美国Zebra105品牌工业级印字机 工业级印字头适合24hrs全天候作业"
+        },
+        {
+          "title": "特点2",
+          "desc": "电控系统 ×1套 使用世界品牌西门子PLC程控器 人机触控式屏幕"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 20
+    },
+    {
+      "id": "web-127",
+      "categoryId": "labeling",
+      "name": "E-300高速平面贴机",
+      "summary": "专用于各种扁瓶的卧式贴标使用。",
+      "cover": "/subpackage/products/static/products/127/cover.png",
+      "images": [
+        "/subpackage/products/static/products/127/cover.png",
+        "/subpackage/products/static/products/127/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "title": "被贴物尺寸",
+          "desc": "35-320mm 30-130mm"
+        },
+        {
+          "title": "贴标速度",
+          "desc": "0 - 250Bottle/min"
+        },
+        {
+          "title": "贴标精度",
+          "desc": "±1mm"
+        },
+        {
+          "title": "标签长度",
+          "desc": "10 - 300mm"
+        },
+        {
+          "title": "标签宽度",
+          "desc": "20 - 90mm"
+        },
+        {
+          "title": "总功率",
+          "desc": "1.5KW"
+        },
+        {
+          "title": "电源",
+          "desc": "220V, 50HZ"
+        },
+        {
+          "title": "气源",
+          "desc": "0.5MPa"
+        },
+        {
+          "title": "外形尺寸",
+          "desc": "2400*600*1680mm (L*W*H)"
+        },
+        {
+          "title": "总重量",
+          "desc": "220KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "专用于各种扁瓶的卧式贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
+        },
+        {
+          "title": "特点3",
+          "desc": "输送机构简单合理，更换规格时无需更换规格件。"
+        },
+        {
+          "title": "特点4",
+          "desc": "贴标速度快，线速度可达50m/min；精度高，误差±1mm。"
+        },
+        {
+          "title": "特点5",
+          "desc": "可与生产线连接使用也可单机使用。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 21
+    },
+    {
+      "id": "web-128",
+      "categoryId": "pallet",
+      "name": "F-300预充式注射贴标机",
+      "summary": "",
+      "cover": "/subpackage/products/static/products/128/cover.png",
+      "images": ["/subpackage/products/static/products/128/cover.png"],
+      "tags": [],
+      "specs": [],
+      "features": [
+        {
+          "title": "产品特点",
+          "desc": "详见设备描述"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 22
+    },
+    {
+      "id": "web-245",
+      "categoryId": "labeling",
+      "name": "E-150上贴式实时打印贴标机",
+      "summary": "工业级卷标打印主机 工业级卷标打印主机 美国Zebra105品牌工业级印字...",
+      "cover": "/subpackage/products/static/products/245/cover.png",
+      "images": ["/subpackage/products/static/products/245/cover.png"],
+      "tags": [],
+      "specs": [
+        {
+          "label": "印字方式",
+          "value": "碳带热转印"
+        },
+        {
+          "label": "印字分辨率",
+          "value": "8 dot/mm (203dpi)"
+        },
+        {
+          "label": "印字宽度",
+          "value": "MAX 4〞(104mm)"
+        },
+        {
+          "label": "标签宽度",
+          "value": "MAX 114mm"
+        },
+        {
+          "label": "适合标签",
+          "value": "配合贵公司（Max W100mm）"
+        },
+        {
+          "label": "标签取放",
+          "value": "真空吸附接触式"
+        },
+        {
+          "label": "贴标位置",
+          "value": "由高精度SENSOR配合定位气缸贴标头控制移动贴标头到指定的贴标位置。"
+        },
+        {
+          "label": "贴标速度",
+          "value": "20 PCS/MIN"
+        },
+        {
+          "label": "电控机盘",
+          "value": "铁板烤漆"
+        },
+        {
+          "label": "电源",
+          "value": "单相220VAC 50HZ"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "工业级卷标打印主机 美国Zebra105品牌工业级印字机 工业级印字头适合24hrs全天候作业。"
+        },
+        {
+          "title": "特点2",
+          "desc": "电控系统 ×1套 使用世界品牌西门子PLC程控器 人机触控式屏幕。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 23
+    },
+    {
+      "id": "web-477",
+      "categoryId": "labeling",
+      "name": "E-260双面折角封口贴标机",
+      "summary": "本设备专用于各种方盒的折角贴标使用。",
+      "cover": "/subpackage/products/static/products/477/cover.png",
+      "images": ["/subpackage/products/static/products/477/cover.png"],
+      "tags": [],
+      "specs": [
+        {
+          "label": "贴标速度",
+          "value": "0-150盒/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±1mm"
+        },
+        {
+          "label": "适用纸盒范围",
+          "value": "L:100-200mm W:30-200mm H:15-100mm"
+        },
+        {
+          "label": "适用标签范围",
+          "value": "H:15-30mm L:15-30mm"
+        },
+        {
+          "label": "功率",
+          "value": "2.0KW"
+        },
+        {
+          "label": "气源压力",
+          "value": "0.4-0.6Mpa"
+        },
+        {
+          "label": "进气管直径",
+          "value": "φ8mm"
+        },
+        {
+          "label": "总重量",
+          "value": "380KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "本设备专用于各种方盒的折角贴标使用。"
+        },
+        {
+          "title": "特点2",
+          "desc": "方盒两侧可同时贴标，纸盒之间保持一定距离的间隔，然后进行贴标。两贴标主机头均为伺服贴标系统。"
+        },
+
+        {
+          "title": "特点3",
+          "desc": "纸盒通过输送带输送至分盒机构，分开间距后进入上压机构，产品在上压机构与输送带同步输送的过程中贴标主机头出标，将不干胶标签贴到纸盒上，并通过压标机构将标签压牢，完成贴标。"
+        },
+        {
+          "title": "特点4",
+          "desc": "设备操作方向为左式，即左侧进料右侧出料，设备可单机使用，也可与上下游设备连线及联动。"
+        },
+        {
+          "title": "特点5",
+          "desc": "贴标主机相对于机箱台面的高度可调节，从而调节标签相对于产品的贴标高低位置。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 24
+    },
+    {
+      "id": "web-478",
+      "categoryId": "labeling",
+      "name": "G450-XT高速旋杆贴标机",
+      "summary": "l 适用于预充式注射器灌装封槌后的自动扭杆贴标l 旋杆采用离心式送料盘送料...",
+      "cover": "/subpackage/products/static/products/478/cover.png",
+      "images": [
+        "/subpackage/products/static/products/478/cover.png",
+        "/subpackage/products/static/products/478/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "规格",
+          "value": "0.5-3ml"
+        },
+        {
+          "label": "生产速度",
+          "value": "400支/分"
+        },
+        {
+          "label": "贴标精度",
+          "value": "±0.5mm"
+        },
+        {
+          "label": "标签长度",
+          "value": "50*45mm"
+        },
+        {
+          "label": "总功率",
+          "value": "7KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源压力",
+          "value": "0.6Mpa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "1380*1782*2076mm (L*W*H)"
+        },
+        {
+          "label": "总重量",
+          "value": "2000KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于预充式注射器灌装封槌后的自动扭杆贴标"
+        },
+        {
+          "title": "特点2",
+          "desc": "旋杆采用离心式送料盘送料，噪声小，平稳，速度快"
+        },
+        {
+          "title": "特点3",
+          "desc": "注射器针筒采用斜坡S形滑道送筒，冲击小，破损低"
+        },
+        {
+          "title": "特点4",
+          "desc": "规格更换采用刻度四面预置靠山结构，囊括注射器所有规格"
+        },
+        {
+          "title": "特点5",
+          "desc": "具有防碎瓶碎杆过载保护功能，破瓶率极低"
+        },
+        {
+          "title": "特点6",
+          "desc": "同步机械爪，抓杆正，防倒转齿形，免伤杆"
+        },
+        {
+          "title": "特点7",
+          "desc": "同步带摩擦旋瓶机构，可数字调整摩擦压瓶压力，防过旋"
+        },
+        {
+          "title": "特点8",
+          "desc": "可开合高速同步轮附机构，调试、维修、换签方便"
+        },
+        {
+          "title": "特点9",
+          "desc": "配扭矩检测功能，防欠旋，具有补旋功能"
+        },
+        {
+          "title": "特点10",
+          "desc": "正压剔除系统，稳定可靠"
+        },
+        {
+          "title": "特点11",
+          "desc": "打码头具有整体移出功能，且有自锁型旋钮柱塞定位，方便快速换标，换标时间短"
+        },
+        {
+          "title": "特点12",
+          "desc": "推杆规格更换具有一键升降功能，数显显示，高效快捷"
+        },
+        {
+          "title": "特点13",
+          "desc": "采用西门子伺服电机和运动控制器，双瓶控制，贴标精度高"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 25
+    },
+    {
+      "id": "web-479",
+      "categoryId": "labeling",
+      "name": "G450-TC 智能脱巢机",
+      "summary": "l 适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1...",
+      "cover": "/subpackage/products/static/products/479/cover.png",
+      "images": [
+        "/subpackage/products/static/products/479/cover.png",
+        "/subpackage/products/static/products/479/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [
+        {
+          "label": "规格",
+          "value": "0.5-5ml"
+        },
+        {
+          "label": "生产速度",
+          "value": ">400支/分"
+        },
+        {
+          "label": "总功率",
+          "value": "3KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源压力",
+          "value": "0.6Mpa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "2050*2050*2250mm (L*W*H)"
+        },
+        {
+          "label": "总重量",
+          "value": "1500KG"
+        }
+      ],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1-5ml)螺旋头注射器"
+        },
+        {
+          "title": "特点2",
+          "desc": "采用PU钢丝同步带上料，连线和人工上料均可"
+        },
+        {
+          "title": "特点3",
+          "desc": "采用进口伺服电机，精度高工作性能稳定等特点"
+        },
+        {
+          "title": "特点4",
+          "desc": "采用进口气动元件，反应敏捷工作性能稳定等特点"
+        },
+        {
+          "title": "特点5",
+          "desc": "巢盒和巢板有独立堆叠搜集功能及巢盒和巢板满料报警"
+        },
+        {
+          "title": "特点6",
+          "desc": "真空吸附巢板，真空度数字显示，掉压报警"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 26
+    },
+    {
+      "id": "web-480",
+      "categoryId": "labeling",
+      "name": "G450-HC1500缓冲站",
+      "summary": "l 适用于0.5-5ml预充针缓存。",
+      "cover": "/subpackage/products/static/products/480/cover.png",
+      "images": [
+        "/subpackage/products/static/products/480/cover.png",
+        "/subpackage/products/static/products/480/detail-1.png"
+      ],
+      "tags": [],
+      "specs": [],
+      "features": [
+        {
+          "title": "特点1",
+          "desc": "l 适用于0.5-5ml预充针缓存。"
+        },
+        {
+          "title": "特点2",
+          "desc": "l 采用双拨轮送瓶方式，拨料稳定，不会打滑。"
+        },
+        {
+          "title": "特点3",
+          "desc": "l 使用进口知名品牌电机，左右横移位置准确。"
+        },
+        {
+          "title": "特点4",
+          "desc": "l 滑轨采用进口材料，不易变形、不伤瓶身、下滑顺畅。"
+        },
+        {
+          "title": "特点5",
+          "desc": "l 滑轨机构设计窄小，减小空间，缓存量大。"
+        },
+        {
+          "title": "特点6",
+          "desc": "l 轨道组，设计结构巧妙，更换规格方便。"
+        }
+      ],
+      "applications": ["制药", "食品", "日化"],
+      "featured": false,
+      "sort": 27
+    }
+  ]
 }
