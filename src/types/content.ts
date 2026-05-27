@@ -108,5 +108,6 @@ export interface CompanyData {
   introSummary: string;
   culture: CompanyCulture;
   honorsImage: string;
+  partnerImage: string;
   contact: Contact;
 }

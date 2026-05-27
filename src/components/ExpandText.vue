@@ -13,9 +13,10 @@ import { computed, ref } from 'vue';
 const props = defineProps<{
   text: string;
   maxLines?: number;
+  expanded?: boolean;
 }>();
 
-const expanded = ref(false);
+const expanded = ref(props.expanded || false);
 const showToggle = computed(() => props.text.length > 120);
 </script>
 

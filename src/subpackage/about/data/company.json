@@ -75,6 +75,7 @@
     ]
   },
   "honorsImage": "/subpackage/about/static/cert/honors.png",
+  "partnerImage": "/subpackage/about/static/partnerImage.png",
   "contact": {
     "salesPhone": "021-67678382",
     "afterSalesPhone": "021-37680571",
