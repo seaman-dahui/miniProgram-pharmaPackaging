@@ -29,7 +29,7 @@ defineProps<{
     }
 
     .label {
-      width: 200rpx;
+      width: 195rpx;
       flex-shrink: 0;
       color: $text-secondary;
       font-size: 28rpx;

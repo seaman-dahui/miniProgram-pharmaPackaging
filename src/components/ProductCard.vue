@@ -1,6 +1,11 @@
 <template>
   <view class="product-card" @tap="onTap">
-    <ProtectedImage class="cover" :src="product.cover" mode="aspectFill" />
+    <image
+      class="cover"
+      :src="product.cover"
+      mode="aspectFill"
+      :show-menu-by-longpress="false"
+    />
     <view class="info">
       <text class="name" selectable="false">{{ product.name }}</text>
       <text class="summary" selectable="false">{{ product.summary }}</text>
@@ -17,7 +22,6 @@
 </template>
 
 <script setup lang="ts">
-import ProtectedImage from '@/components/ProtectedImage.vue';
 import type { Product } from '@/types/content';
 import { SUBPACKAGE } from '@/utils/routes';
 

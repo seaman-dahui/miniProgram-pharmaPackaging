@@ -7,7 +7,12 @@
   >
     <view class="brand-header">
       <view class="logo-wrap">
-        <ProtectedImage class="company-logo" :src="company.logo" mode="widthFix" />
+        <image
+          class="company-logo"
+          :src="company.logo"
+          mode="widthFix"
+          :show-menu-by-longpress="false"
+        />
       </view>
       <text class="brand-name">{{ company.brandName }}</text>
       <text class="slogan">{{ company.slogan }}</text>
@@ -37,20 +42,22 @@
 
     <view id="anchor-honors" class="card">
       <SectionTitle title="资质荣誉" />
-      <ProtectedImage
+      <image
         class="honors-img"
         :src="company.honorsImage"
         mode="widthFix"
+        :show-menu-by-longpress="false"
         @tap="previewHonors(company.honorsImage)"
       />
     </view>
 
     <view id="anchor-partners" class="card">
       <SectionTitle title="合作伙伴" />
-      <ProtectedImage
+      <image
         class="honors-img"
         :src="company.partnerImage"
         mode="widthFix"
+        :show-menu-by-longpress="false"
         @tap="previewHonors(company.partnerImage)"
       />
     </view>
@@ -89,7 +96,6 @@ import { computed, nextTick, ref } from 'vue';
 import SectionTitle from '@/components/SectionTitle.vue';
 import ExpandText from '@/components/ExpandText.vue';
 import CorporateCulture from '@/components/CorporateCulture.vue';
-import ProtectedImage from '@/components/ProtectedImage.vue';
 import { getCompany } from '@/utils/content';
 import { previewImages } from '@/utils/preview';
 

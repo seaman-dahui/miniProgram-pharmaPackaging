@@ -2,11 +2,12 @@
   <view class="article-content">
     <block v-for="(block, index) in blocks" :key="index">
       <text v-if="block.type === 'text'" class="paragraph" selectable="false">{{ block.content }}</text>
-      <ProtectedImage
+      <image
         v-else
         class="article-image"
         :src="block.content"
         mode="widthFix"
+        :show-menu-by-longpress="false"
         @tap="onPreview(block.content)"
       />
     </block>
@@ -14,7 +15,6 @@
 </template>
 
 <script setup lang="ts">
-import ProtectedImage from '@/components/ProtectedImage.vue';
 import type { NewsBlock } from '@/types/content';
 import { previewImages } from '@/utils/preview';
 

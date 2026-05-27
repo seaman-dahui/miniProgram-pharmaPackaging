@@ -8,10 +8,11 @@
     :interval="3000"
   >
     <swiper-item v-for="(src, index) in images" :key="index">
-      <ProtectedImage
+      <image
         class="slide-image"
         :src="src"
         mode="aspectFill"
+        :show-menu-by-longpress="false"
         @tap="onPreview(index)"
       />
     </swiper-item>
@@ -19,7 +20,6 @@
 </template>
 
 <script setup lang="ts">
-import ProtectedImage from '@/components/ProtectedImage.vue';
 import { previewImages } from '@/utils/preview';
 
 const props = withDefaults(

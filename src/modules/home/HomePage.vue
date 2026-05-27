@@ -3,7 +3,12 @@
     <view class="header" :style="{ paddingTop: statusBarHeight + 'px' }">
       <view class="header-inner" :style="{ minHeight: navBarHeight + 'px' }">
         <view class="logo-wrap">
-          <ProtectedImage class="company-logo" :src="company.logo" mode="aspectFit" />
+          <image
+            class="company-logo"
+            :src="company.logo"
+            mode="aspectFit"
+            :show-menu-by-longpress="false"
+          />
         </view>
       </view>
       <text class="brand-name">{{ company.brandName }}</text>
@@ -20,7 +25,12 @@
         :interval="4000"
       >
         <swiper-item v-for="item in banners" :key="item.id" @tap="onBannerTap(item)">
-          <ProtectedImage class="banner-img" :src="item.image" mode="aspectFill" />
+          <image
+            class="banner-img"
+            :src="item.image"
+            mode="aspectFill"
+            :show-menu-by-longpress="false"
+          />
           <view v-if="item.title" class="banner-mask">
             <text class="banner-title">{{ item.title }}</text>
           </view>
@@ -42,7 +52,12 @@
               class="featured-item"
               @tap="goDetail(item.id)"
             >
-              <ProtectedImage class="featured-cover" :src="item.cover" mode="aspectFill" />
+              <image
+                class="featured-cover"
+                :src="item.cover"
+                mode="aspectFill"
+                :show-menu-by-longpress="false"
+              />
               <text class="featured-name">{{ item.name }}</text>
               <text class="featured-summary">{{ item.summary }}</text>
             </view>
@@ -64,7 +79,6 @@
 import { computed, onMounted, ref } from 'vue';
 import SectionTitle from '@/components/SectionTitle.vue';
 import CategoryGrid from '@/components/CategoryGrid.vue';
-import ProtectedImage from '@/components/ProtectedImage.vue';
 import {
   getBanners,
   getCategories,
