@@ -1839,7 +1839,7 @@
       "id": "web-479",
       "categoryId": "labeling",
       "name": "G450-TC 智能脱巢机",
-      "summary": "l 适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1...",
+      "summary": "适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1...",
       "cover": "/subpackage/products/static/products/479/cover.png",
       "images": [
         "/subpackage/products/static/products/479/cover.png",
@@ -1917,31 +1917,60 @@
         "/subpackage/products/static/products/480/detail-1.png"
       ],
       "tags": [],
-      "specs": [],
+      "specs": [
+        {
+          "label": "规格",
+          "value": "0.5-5ml"
+        },
+        {
+          "label": "缓存量",
+          "value": "1500支"
+        },
+        {
+          "label": "总功率",
+          "value": "3KW"
+        },
+        {
+          "label": "电源",
+          "value": "220V, 50HZ"
+        },
+        {
+          "label": "气源压力",
+          "value": "0.6Mpa"
+        },
+        {
+          "label": "外形尺寸",
+          "value": "1720*1700*2240mm (L*W*H)"
+        },
+        {
+          "label": "总重量",
+          "value": "700KG"
+        }
+      ],
       "features": [
         {
           "title": "特点1",
-          "desc": "l 适用于0.5-5ml预充针缓存。"
+          "desc": "适用于0.5-5ml预充针缓存。"
         },
         {
           "title": "特点2",
-          "desc": "l 采用双拨轮送瓶方式，拨料稳定，不会打滑。"
+          "desc": "采用双拨轮送瓶方式，拨料稳定，不会打滑。"
         },
         {
           "title": "特点3",
-          "desc": "l 使用进口知名品牌电机，左右横移位置准确。"
+          "desc": "使用进口知名品牌电机，左右横移位置准确。"
         },
         {
           "title": "特点4",
-          "desc": "l 滑轨采用进口材料，不易变形、不伤瓶身、下滑顺畅。"
+          "desc": "滑轨采用进口材料，不易变形、不伤瓶身、下滑顺畅。"
         },
         {
           "title": "特点5",
-          "desc": "l 滑轨机构设计窄小，减小空间，缓存量大。"
+          "desc": "滑轨机构设计窄小，减小空间，缓存量大。"
         },
         {
           "title": "特点6",
-          "desc": "l 轨道组，设计结构巧妙，更换规格方便。"
+          "desc": "轨道组，设计结构巧妙，更换规格方便。"
         }
       ],
       "applications": ["制药", "食品", "日化"],
