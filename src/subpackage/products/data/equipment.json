@@ -422,7 +422,10 @@
       "images": [
         "/subpackage/products/static/products/243/cover.png",
         "/subpackage/products/static/products/243/detail-1.png",
-        "/subpackage/products/static/products/243/detail-2.png"
+        "/subpackage/products/static/products/243/detail-2.png",
+        "/subpackage/products/static/products/243/detail-3.png",
+        "/subpackage/products/static/products/243/detail-4.png",
+        "/subpackage/products/static/products/243/detail-5.png"
       ],
       "tags": [],
       "specs": [],
@@ -822,7 +825,9 @@
       "cover": "/subpackage/products/static/products/124/cover.png",
       "images": [
         "/subpackage/products/static/products/124/cover.png",
-        "/subpackage/products/static/products/124/detail-1.png"
+        "/subpackage/products/static/products/124/detail-1.png",
+        "/subpackage/products/static/products/124/detail-2.png",
+        "/subpackage/products/static/products/124/detail-3.png"
       ],
       "tags": [],
       "specs": [
@@ -898,7 +903,8 @@
       "images": [
         "/subpackage/products/static/products/25/cover.png",
         "/subpackage/products/static/products/25/detail-1.png",
-        "/subpackage/products/static/products/25/detail-2.png"
+        "/subpackage/products/static/products/25/detail-2.png",
+        "/subpackage/products/static/products/25/detail-3.png"
       ],
       "tags": [],
       "specs": [
@@ -938,27 +944,23 @@
       "features": [
         {
           "title": "特点1",
-          "desc": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。"
+          "desc": "可贴方瓶的单面、双面及三面，扁瓶的单面、双面，圆瓶的单面、双面。使用范围广，适用性强。"
         },
         {
           "title": "特点2",
-          "desc": "使用范围广，适用性强。"
+          "desc": "使用弹簧缓冲上压机构，与输送同步。保证瓶子压紧，且贴标时瓶子不倾斜。"
         },
         {
           "title": "特点3",
-          "desc": "使用弹簧缓冲上压机构，与输送同步。"
-        },
-        {
-          "title": "特点4",
-          "desc": "保证瓶子压紧，且贴标时瓶子不倾斜。"
-        },
-        {
-          "title": "特点5",
           "desc": "使用进口知名品牌伺服电机，出标速度快、精度高及稳定性好。"
         },
         {
-          "title": "特点6",
+          "title": "特点4",
           "desc": "不同材质标签贴标不打皱不起泡。"
+        },
+        {
+          "title": "特点5",
+          "desc": "万向调整机构调整角度范围大，适用于各种锥度瓶。"
         }
       ],
       "applications": ["制药", "食品", "日化"],
@@ -1128,7 +1130,8 @@
       "cover": "/subpackage/products/static/products/112/cover.png",
       "images": [
         "/subpackage/products/static/products/112/cover.png",
-        "/subpackage/products/static/products/112/detail-1.png"
+        "/subpackage/products/static/products/112/detail-1.png",
+        "/subpackage/products/static/products/112/detail-2.png"
       ],
       "tags": [],
       "specs": [
@@ -1295,7 +1298,10 @@
       "cover": "/subpackage/products/static/products/114/cover.png",
       "images": [
         "/subpackage/products/static/products/114/cover.png",
-        "/subpackage/products/static/products/114/detail-1.png"
+        "/subpackage/products/static/products/114/detail-1.png",
+        "/subpackage/products/static/products/114/detail-2.png",
+        "/subpackage/products/static/products/114/detail-3.png",
+        "/subpackage/products/static/products/114/detail-4.png"
       ],
       "tags": [],
       "specs": [
@@ -1445,7 +1451,8 @@
       "cover": "/subpackage/products/static/products/122/cover.png",
       "images": [
         "/subpackage/products/static/products/122/cover.png",
-        "/subpackage/products/static/products/122/detail-1.png"
+        "/subpackage/products/static/products/122/detail-1.png",
+        "/subpackage/products/static/products/122/detail-2.png"
       ],
       "tags": [],
       "specs": [
@@ -1512,7 +1519,9 @@
       "cover": "/subpackage/products/static/products/127/cover.png",
       "images": [
         "/subpackage/products/static/products/127/cover.png",
-        "/subpackage/products/static/products/127/detail-1.png"
+        "/subpackage/products/static/products/127/detail-1.png",
+        "/subpackage/products/static/products/127/detail-2.png",
+        "/subpackage/products/static/products/127/detail-3.png"
       ],
       "tags": [],
       "specs": [
