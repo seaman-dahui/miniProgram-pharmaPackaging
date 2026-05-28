@@ -1,25 +1,22 @@
 import fs from 'fs';
 import path from 'path';
+import { getStaticDirForArticleId, PATHS } from './lib/product-static-paths.mjs';
 
-const ROOT = path.resolve(import.meta.dirname, '..');
+const ROOT = PATHS.ROOT;
 const EQUIPMENT = path.join(ROOT, 'src/subpackage/products/data/equipment.json');
 const OUT_DIR = path.join(ROOT, 'src/static/home/featured');
 
 function isValidImageFile(filePath) {
   const buf = fs.readFileSync(filePath);
   if (buf.length < 256) return false;
-  if (buf[0] === 0x89 && buf[1] === 0x50) return true; // PNG
-  if (buf[0] === 0xff && buf[1] === 0xd8) return true; // JPEG
-  if (buf.slice(0, 4).toString('ascii') === 'RIFF') return true; // WEBP
+  if (buf[0] === 0x89 && buf[1] === 0x50) return true;
+  if (buf[0] === 0xff && buf[1] === 0xd8) return true;
+  if (buf.slice(0, 4).toString('ascii') === 'RIFF') return true;
   return false;
 }
 
-function resolveCoverFile(articleId) {
-  const dir = path.join(
-    ROOT,
-    'src/subpackage/products/static/products',
-    articleId,
-  );
+function resolveCoverFile(articleId, productId) {
+  const dir = getStaticDirForArticleId(articleId, productId);
   if (!fs.existsSync(dir)) return null;
   const files = fs
     .readdirSync(dir)
@@ -48,7 +45,7 @@ for (const product of featured) {
     console.warn('Skip (bad id):', product.id);
     continue;
   }
-  const src = resolveCoverFile(m[1]);
+  const src = resolveCoverFile(m[1], product.id);
   if (!src) {
     console.warn('No cover file:', product.id);
     continue;

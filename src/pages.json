@@ -86,10 +86,6 @@
     }
   ],
   "preloadRule": {
-    "pages/index/index": {
-      "network": "all",
-      "packages": ["subpackage/home", "subpackage/about", "subpackage/products", "subpackage/news"]
-    },
     "pages/products/index": {
       "network": "all",
       "packages": ["subpackage/products"]

@@ -5,6 +5,7 @@ import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { spawnSync } from 'child_process';
 import https from 'https';
 import http from 'http';
 
@@ -414,6 +415,21 @@ async function main() {
 
   updateEquipmentJson(products);
   console.log(`Updated equipment.json with ${products.length} products`);
+
+  runNodeScript('compress-product-images.mjs');
+  runNodeScript('fix-product-image-paths.mjs');
+  runNodeScript('sync-home-featured-covers.mjs');
+}
+
+function runNodeScript(name) {
+  console.log(`Running ${name}...`);
+  const r = spawnSync(process.execPath, [path.join(__dirname, name)], {
+    cwd: ROOT,
+    stdio: 'inherit',
+  });
+  if (r.status !== 0) {
+    throw new Error(`${name} exited with code ${r.status}`);
+  }
 }
 
 main().catch((e) => {

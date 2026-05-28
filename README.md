@@ -35,9 +35,22 @@ npm run dev:mp-weixin
 
 ```bash
 npm run build:mp-weixin
+npm run check:package-size
 ```
 
 产物目录：`dist/build/mp-weixin`，上传微信后台提交审核。
+
+微信单分包上限约 2MB。产品图位于 `src/subpackage/products/static/products/`，更新或抓取后请执行：
+
+```bash
+npm run compress:products   # 压缩图片并修正 equipment.json 路径、同步首页推荐图
+npm run build:mp-weixin
+npm run check:package-size  # 任一分包超限则 exit 1
+```
+
+若 `subpackage/products` 仍超限，再执行 `npm run split:product-media` 将图片拆到 `products-media-*` 分包。
+
+**注意**：`preloadRule` 中同一页面预加载的分包总体积不得超过 **2MB**。首页勿预加载 `products`/`about`/`news` 等大分包（首页 Banner、分类、推荐图已在主包 `static/`）。
 
 ## 内容维护
 

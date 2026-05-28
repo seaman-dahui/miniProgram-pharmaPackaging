@@ -1,13 +1,13 @@
 import fs from 'fs';
 import path from 'path';
+import {
+  getStaticDirForArticleId,
+  getStaticWebPrefix,
+  PATHS,
+} from './lib/product-static-paths.mjs';
 
-const ROOT = path.resolve(import.meta.dirname, '..');
+const ROOT = PATHS.ROOT;
 const EQUIPMENT = path.join(ROOT, 'src/subpackage/products/data/equipment.json');
-
-function resolveStaticPath(webPath) {
-  const rel = webPath.replace(/^\//, '').replace(/\//g, path.sep);
-  return path.join(ROOT, 'src', rel);
-}
 
 function listImageFiles(dir) {
   if (!fs.existsSync(dir)) return [];
@@ -28,18 +28,17 @@ for (const product of data.products) {
   const m = product.id.match(/^web-(\d+)$/);
   if (!m) continue;
   const articleId = m[1];
-  const dir = path.join(ROOT, 'src/subpackage/products/static/products', articleId);
+  const dir = getStaticDirForArticleId(articleId, product.id);
   const files = listImageFiles(dir);
   if (!files.length) {
     console.warn('No images:', product.id, dir);
     continue;
   }
 
+  const prefix = getStaticWebPrefix(product.id);
   const coverFile = files.find((f) => f.startsWith('cover')) || files[0];
-  const coverPath = `/subpackage/products/static/products/${articleId}/${coverFile}`;
-  const imagePaths = files.map(
-    (f) => `/subpackage/products/static/products/${articleId}/${f}`,
-  );
+  const coverPath = `${prefix}/${articleId}/${coverFile}`;
+  const imagePaths = files.map((f) => `${prefix}/${articleId}/${f}`);
 
   if (product.cover !== coverPath) {
     product.cover = coverPath;
