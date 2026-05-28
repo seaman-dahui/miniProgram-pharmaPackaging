@@ -50,7 +50,9 @@ npm run check:package-size  # 任一分包超限则 exit 1
 
 若 `subpackage/products` 仍超限，再执行 `npm run split:product-media` 将图片拆到 `products-media-*` 分包。
 
-**注意**：`preloadRule` 中同一页面预加载的分包总体积不得超过 **2MB**。首页勿预加载 `products`/`about`/`news` 等大分包（首页 Banner、分类、推荐图已在主包 `static/`）。
+**注意**：`preloadRule` 中同一页面预加载的分包总体积不得超过 **2MB**。首页勿预加载 `products`/`about`/`news` 等大分包。
+
+主包 Tab 页图片（首页 Banner/推荐、产品列表封面、关于我们资质/合作伙伴）须放在 `src/static/`，由 `sync-*` 脚本从分包同步；`compress:products` 会一并执行同步。
 
 ## 内容维护
 

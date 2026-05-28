@@ -23,12 +23,17 @@ export function getBanners(): Banner[] {
   return equipment.banners || [];
 }
 
+/** Main-package cover for products tab list (subpackage static fails on main tab). */
+function getListCover(productId: string): string {
+  return `/static/products/list/${productId}.jpg`;
+}
+
 export function getProducts(categoryId?: string): Product[] {
   let list = [...equipment.products].sort((a, b) => a.sort - b.sort);
   if (categoryId) {
     list = list.filter((p) => p.categoryId === categoryId);
   }
-  return list;
+  return list.map((p) => ({ ...p, cover: getListCover(p.id) }));
 }
 
 /** Main-package covers for home tab (subpackage static fails on device first paint). */

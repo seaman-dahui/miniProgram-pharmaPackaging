@@ -71,6 +71,24 @@ for (const f of fs.readdirSync(DIST)) {
 rows.push({ name: 'main (approx)', bytes: mainSize });
 if (mainSize / 1024 > LIMIT_KB) failed = true;
 
+const mainStaticDirs = [
+  'static/about',
+  'static/products/list',
+  'static/home/featured',
+  'static/home/banner',
+  'static/tabs',
+];
+console.log(`\nMain package static breakdown\n`);
+console.log('Path'.padEnd(28), 'Size(KB)'.padStart(10));
+console.log('-'.repeat(40));
+for (const rel of mainStaticDirs) {
+  const dir = path.join(DIST, rel);
+  const bytes = dirSize(dir);
+  if (bytes > 0) {
+    console.log(rel.padEnd(28), formatKB(bytes).padStart(10));
+  }
+}
+
 for (const sub of subpackages) {
   const name = `subpackage/${sub.name}`;
   const bytes = dirSize(path.join(subRoot, sub.name));

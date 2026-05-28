@@ -9,7 +9,7 @@
     "build:h5": "uni build",
     "type-check": "vue-tsc --noEmit",
     "scrape:products": "node scripts/scrape-shlanghui-products.mjs",
-    "compress:products": "node scripts/compress-product-images.mjs && node scripts/fix-product-image-paths.mjs && node scripts/sync-home-featured-covers.mjs",
+    "compress:products": "node scripts/compress-product-images.mjs && node scripts/fix-product-image-paths.mjs && node scripts/sync-home-featured-covers.mjs && node scripts/sync-product-list-covers.mjs && node scripts/sync-about-main-images.mjs",
     "check:package-size": "node scripts/measure-package-sizes.mjs",
     "split:product-media": "node scripts/split-product-media-subpackages.mjs"
   },

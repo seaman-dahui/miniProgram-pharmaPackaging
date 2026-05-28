@@ -5,15 +5,13 @@ import { PATHS } from './lib/product-static-paths.mjs';
 
 const ROOT = PATHS.ROOT;
 const EQUIPMENT = path.join(ROOT, 'src/subpackage/products/data/equipment.json');
-const OUT_DIR = path.join(ROOT, 'src/static/home/featured');
+const OUT_DIR = path.join(ROOT, 'src/static/products/list');
 
 const data = JSON.parse(fs.readFileSync(EQUIPMENT, 'utf8'));
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const featured = data.products.filter((p) => p.featured);
 let copied = 0;
-
-for (const product of featured) {
+for (const product of data.products) {
   const m = product.id.match(/^web-(\d+)$/);
   if (!m) {
     console.warn('Skip (bad id):', product.id);
@@ -24,10 +22,9 @@ for (const product of featured) {
     console.warn('No cover file:', product.id);
     continue;
   }
-  const dest = path.join(OUT_DIR, `${product.id}.png`);
+  const dest = path.join(OUT_DIR, `${product.id}.jpg`);
   fs.copyFileSync(src, dest);
   copied++;
-  console.log(`${product.id} <- ${path.relative(ROOT, src)}`);
 }
 
-console.log(`Synced ${copied} featured cover(s) to ${path.relative(ROOT, OUT_DIR)}`);
+console.log(`Synced ${copied} list cover(s) to ${path.relative(ROOT, OUT_DIR)}`);

@@ -38,44 +38,107 @@
       }
     ],
     "coreValues": [
-      { "zh": "专注执着", "en": "Focus on persistent" },
-      { "zh": "客观专业", "en": "Objective and professional" },
-      { "zh": "团结信任", "en": "Unity and trust" },
-      { "zh": "学习分享", "en": "Learn to share" },
-      { "zh": "积极负责", "en": "Positive for" },
-      { "zh": "追求卓越", "en": "The pursuit of excellence" }
+      {
+        "zh": "专注执着",
+        "en": "Focus on persistent"
+      },
+      {
+        "zh": "客观专业",
+        "en": "Objective and professional"
+      },
+      {
+        "zh": "团结信任",
+        "en": "Unity and trust"
+      },
+      {
+        "zh": "学习分享",
+        "en": "Learn to share"
+      },
+      {
+        "zh": "积极负责",
+        "en": "Positive for"
+      },
+      {
+        "zh": "追求卓越",
+        "en": "The pursuit of excellence"
+      }
     ],
     "businessPhilosophy": {
       "title": "我们的经营理念",
       "content": "给客户带来价值，为员工创造平台。",
-      "formula": ["客户满意", "员工发展"],
+      "formula": [
+        "客户满意",
+        "员工发展"
+      ],
       "result": "企业成功"
     },
     "serviceTenet": {
       "title": "我们的服务宗旨",
       "content": "真诚的为客户提供最有价值的专业服务。",
       "values": [
-        { "zh": "真诚", "en": "sincere" },
-        { "zh": "理解", "en": "understand" },
-        { "zh": "客观", "en": "objective" },
-        { "zh": "专业", "en": "professional" },
-        { "zh": "信赖", "en": "trust" },
-        { "zh": "承诺", "en": "commitment" }
+        {
+          "zh": "真诚",
+          "en": "sincere"
+        },
+        {
+          "zh": "理解",
+          "en": "understand"
+        },
+        {
+          "zh": "客观",
+          "en": "objective"
+        },
+        {
+          "zh": "专业",
+          "en": "professional"
+        },
+        {
+          "zh": "信赖",
+          "en": "trust"
+        },
+        {
+          "zh": "承诺",
+          "en": "commitment"
+        }
       ]
     },
     "actionValues": [
-      { "zh": "关注细节", "en": "Attention to detail" },
-      { "zh": "持续改进", "en": "Continuous improvement" },
-      { "zh": "快速反应", "en": "Rapid response" },
-      { "zh": "立即行动", "en": "Immediate action" },
-      { "zh": "团结协作", "en": "Solidarity and collaboration" },
-      { "zh": "勇挑重担", "en": "We got the weight" },
-      { "zh": "尽心尽责", "en": "conscientious" },
-      { "zh": "全力以赴", "en": "Go all out" }
+      {
+        "zh": "关注细节",
+        "en": "Attention to detail"
+      },
+      {
+        "zh": "持续改进",
+        "en": "Continuous improvement"
+      },
+      {
+        "zh": "快速反应",
+        "en": "Rapid response"
+      },
+      {
+        "zh": "立即行动",
+        "en": "Immediate action"
+      },
+      {
+        "zh": "团结协作",
+        "en": "Solidarity and collaboration"
+      },
+      {
+        "zh": "勇挑重担",
+        "en": "We got the weight"
+      },
+      {
+        "zh": "尽心尽责",
+        "en": "conscientious"
+      },
+      {
+        "zh": "全力以赴",
+        "en": "Go all out"
+      }
     ]
   },
-  "honorsImage": "/subpackage/about/static/cert/honors.png",
-  "partnerImage": "/subpackage/about/static/partnerImage.png",
+  "honorsImage": "/static/about/honors.png",
+  "partnerImage": "/static/about/partner.png",
   "contact": {
     "salesPhone": "021-67678382",
     "afterSalesPhone": "021-37680571",

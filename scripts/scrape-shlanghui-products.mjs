@@ -419,6 +419,8 @@ async function main() {
   runNodeScript('compress-product-images.mjs');
   runNodeScript('fix-product-image-paths.mjs');
   runNodeScript('sync-home-featured-covers.mjs');
+  runNodeScript('sync-product-list-covers.mjs');
+  runNodeScript('sync-about-main-images.mjs');
 }
 
 function runNodeScript(name) {
