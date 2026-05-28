@@ -138,7 +138,8 @@
       "cover": "/subpackage/products/static/products/260/cover.png",
       "images": [
         "/subpackage/products/static/products/260/cover.png",
-        "/subpackage/products/static/products/260/detail-1.png"
+        "/subpackage/products/static/products/260/detail-1.png",
+        "/subpackage/products/static/products/260/detail-2.png"
       ],
       "tags": [],
       "specs": [
@@ -632,7 +633,9 @@
       "images": [
         "/subpackage/products/static/products/261/cover.png",
         "/subpackage/products/static/products/261/detail-1.png",
-        "/subpackage/products/static/products/261/detail-2.png"
+        "/subpackage/products/static/products/261/detail-2.png",
+        "/subpackage/products/static/products/261/detail-3.png",
+        "/subpackage/products/static/products/261/detail-4.png"
       ],
       "tags": [],
       "specs": [
@@ -711,7 +714,9 @@
       "cover": "/subpackage/products/static/products/262/cover.png",
       "images": [
         "/subpackage/products/static/products/262/cover.png",
-        "/subpackage/products/static/products/262/detail-1.png"
+        "/subpackage/products/static/products/262/detail-3.png",
+        "/subpackage/products/static/products/262/detail-4.png",
+        "/subpackage/products/static/products/262/detail-5.png"
       ],
       "tags": [],
       "specs": [],
@@ -975,7 +980,8 @@
       "cover": "/subpackage/products/static/products/244/cover.png",
       "images": [
         "/subpackage/products/static/products/244/cover.png",
-        "/subpackage/products/static/products/244/detail-1.png"
+        "/subpackage/products/static/products/244/detail-1.png",
+        "/subpackage/products/static/products/244/detail-2.png"
       ],
       "tags": [],
       "specs": [
@@ -1750,10 +1756,7 @@
       "name": "G450-XT高速旋杆贴标机",
       "summary": "l 适用于预充式注射器灌装封槌后的自动扭杆贴标l 旋杆采用离心式送料盘送料...",
       "cover": "/subpackage/products/static/products/478/cover.png",
-      "images": [
-        "/subpackage/products/static/products/478/cover.png",
-        "/subpackage/products/static/products/478/detail-1.png"
-      ],
+      "images": ["/subpackage/products/static/products/478/cover.png"],
       "tags": [],
       "specs": [
         {
@@ -1857,10 +1860,7 @@
       "name": "G450-TC 智能脱巢机",
       "summary": "适用于(0.5-2.25ml)针注射器、(1-5ml)锥头注射器、(1...",
       "cover": "/subpackage/products/static/products/479/cover.png",
-      "images": [
-        "/subpackage/products/static/products/479/cover.png",
-        "/subpackage/products/static/products/479/detail-1.png"
-      ],
+      "images": ["/subpackage/products/static/products/479/cover.png"],
       "tags": [],
       "specs": [
         {
@@ -1928,10 +1928,7 @@
       "name": "G450-HC1500缓冲站",
       "summary": "l 适用于0.5-5ml预充针缓存。",
       "cover": "/subpackage/products/static/products/480/cover.png",
-      "images": [
-        "/subpackage/products/static/products/480/cover.png",
-        "/subpackage/products/static/products/480/detail-1.png"
-      ],
+      "images": ["/subpackage/products/static/products/480/cover.png"],
       "tags": [],
       "specs": [
         {
