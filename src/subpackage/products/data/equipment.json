@@ -376,7 +376,10 @@
       "images": [
         "/subpackage/products/static/products/20/cover.png",
         "/subpackage/products/static/products/20/detail-1.png",
-        "/subpackage/products/static/products/20/detail-2.png"
+        "/subpackage/products/static/products/20/detail-2.png",
+        "/subpackage/products/static/products/20/detail-3.png",
+        "/subpackage/products/static/products/20/detail-4.png",
+        "/subpackage/products/static/products/20/detail-5.png"
       ],
       "tags": [],
       "specs": [],
@@ -462,7 +465,9 @@
       "images": [
         "/subpackage/products/static/products/24/cover.png",
         "/subpackage/products/static/products/24/detail-1.png",
-        "/subpackage/products/static/products/24/detail-2.png"
+        "/subpackage/products/static/products/24/detail-2.png",
+        "/subpackage/products/static/products/24/detail-3.png",
+        "/subpackage/products/static/products/24/detail-4.png"
       ],
       "tags": [],
       "specs": [
@@ -542,7 +547,9 @@
       "images": [
         "/subpackage/products/static/products/19/cover.png",
         "/subpackage/products/static/products/19/detail-1.png",
-        "/subpackage/products/static/products/19/detail-2.png"
+        "/subpackage/products/static/products/19/detail-2.png",
+        "/subpackage/products/static/products/19/detail-3.png",
+        "/subpackage/products/static/products/19/detail-4.png"
       ],
       "tags": [],
       "specs": [
