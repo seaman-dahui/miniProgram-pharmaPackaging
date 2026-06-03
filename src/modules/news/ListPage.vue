@@ -12,7 +12,7 @@
       </view>
     </view>
     <view v-else class="empty-state">
-      <text>暂无新闻</text>
+      <text>暂无动态</text>
     </view>
   </scroll-view>
 </template>

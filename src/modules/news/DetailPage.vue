@@ -8,7 +8,7 @@
     <view class="bottom-space" />
   </scroll-view>
   <view v-else class="empty-state">
-    <text>新闻不存在</text>
+    <text>详情不存在</text>
   </view>
 </template>
 
@@ -30,7 +30,7 @@ onLoad((query) => {
 });
 
 onShareAppMessage(() => ({
-  title: article.value?.title || '新闻详情',
+  title: article.value?.title || '动态详情',
   path: article.value ? `${SUBPACKAGE.NEWS_DETAIL}?id=${article.value.id}` : TAB.NEWS,
 }));
 </script>
